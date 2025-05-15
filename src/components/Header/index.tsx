@@ -31,18 +31,18 @@ const Header: React.FC = () => {
               </button>
             </div>
 
-            <div className="flex sm:flex-row flex-col sm:items-center justify-between w-full uppercase">
-              <div className={`flex shrink-0 sm:items-center ml-3 ${showMobileNav ? 'mb-5' : 'mb-0'}`}>
+            <div className="flex md:flex-row flex-col md:items-center justify-between w-full uppercase">
+              <div className={`flex shrink-0 md:items-center ml-3 ${showMobileNav ? 'mb-5' : 'mb-0'}`}>
                 <Link to="/" className='text-white font-bold lg:text-[26px] text-[20px] inter-light'>Home of visuals</Link>
               </div>
-              <div className={`sm:w-fit w-full ${showMobileNav ? "" : "md:flex hidden"}`}>
-                <div className="flex sm:flex-row flex-col lg:space-x-4 space-x-1 xl:text-[24px] lg:text-[20px] text-[16px] lg:tracking-[1px] tracking-none lg:font-semibold  font-normal">
-                  <Link to="/hov" className="px-3 sm:py-2 py-4 text-white sm:w-fit w-full sm:text-center text-left inter-light font-bold" onClick={() => setShowMobileNav(false)} aria-current="page">Home</Link>
-                  <Link to="/aboutus" className="px-3 sm:py-2 py-4 text-white sm:w-fit w-full sm:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>About</Link>
-                  <Link to="/tasveers" className="px-3 sm:py-2 py-4 text-white sm:w-fit w-full sm:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Tasveers</Link>
-                  <Link to="/gaathas" className="px-3 sm:py-2 py-4 text-white sm:w-fit w-full sm:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Gaathas</Link>
-                  <Link to="/blogs" className="px-3 sm:py-2 py-4 text-white sm:w-fit w-full sm:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Blogs</Link>
-                  <Link to="/contactus" className="px-3 sm:py-2 py-4 text-white sm:w-fit w-full sm:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Book Us</Link>
+              <div className={`md:w-fit w-full ${showMobileNav ? "" : "md:flex hidden"}`}>
+                <div className="flex md:flex-row flex-col lg:space-x-4 space-x-1 xl:text-[24px] lg:text-[20px] text-[16px] lg:tracking-[1px] tracking-none lg:font-semibold font-normal">
+                  <Link to="/hov" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)} aria-current="page">Home</Link>
+                  <Link to="/aboutus" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>About</Link>
+                  <Link to="/tasveers" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Tasveers</Link>
+                  <Link to="/gaathas" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Gaathas</Link>
+                  <Link to="/blogs" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Blogs</Link>
+                  <Link to="/contactus" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Book Us</Link>
                 </div>
               </div>
             </div>
