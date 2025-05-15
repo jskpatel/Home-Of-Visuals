@@ -22,42 +22,42 @@ const Tasveer: React.FC = () => {
             <div className="flex flex-wrap justify-center lg:gap-x-35 gap-x-10 gap-y-24 w-fit" >
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[376px] object-cover object-center' />
+                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
-                <span className='lg:text-[18px] text-[14px] leading-10 capitalize'>Miral & Bhargav</span>
-                <p className='text-[15px] leading-9'>Others who use this device won't see your activity, so you can browse more privately. This you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
+                <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
+                <p className='text-[15px] leading-9'>Others who use this device won'This you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[376px] object-cover object-center' />
+                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
-                <span className='lg:text-[18px] text-[14px] leading-10 capitalize'>Miral & Bhargav</span>
-                <p className='text-[15px] leading-9'>Others who use this device won't see your activity, so you can browse more privately. websites that you visit and the  Google. Downloads, bookmarks and reading list items will be saved.</p>
+                <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
+                <p className='text-[15px] leading-9'>Others who use this device won'websites that you visit and the  Google. Downloads, bookmarks and reading list items will be saved.</p>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[376px] object-cover object-center' />
+                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-md:[376px]  h-[80vh]object-cover object-center' />
                 </div>
-                <span className='lg:text-[18px] text-[14px] leading-10 capitalize'>Miral & Bhargav</span>
-                <p className='text-[15px] leading-9'>So you can browse more privately. This won't change how that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
+                <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
+                <p className='text-[15px] leading-9'>So you can browse more privately. Downloads, bookmarks and reading list items will be saved.</p>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[376px] object-cover object-center' />
+                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[376px]md: object-cover object- h-[80vh]center' />
                 </div>
-                <span className='lg:text-[18px] text-[14px] leading-10 capitalize'>Miral & Bhargav</span>
-                <p className='text-[15px] leading-9'>How data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
+                <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
+                <p className='text-[15px] leading-9'>How data is collected by websites that Downloads, bookmarks and reading list items will be saved.</p>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[376px] object-cover object-center' />
+                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
-                <span className='lg:text-[18px] text-[14px] leading-10 capitalize'>Miral & Bhargav</span>
-                <p className='text-[15px] leading-9'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by. Downloads, bookmarks and reading list items will be saved.</p>
+                <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
+                <p className='text-[15px] leading-9'>Others who use this device won'This won't change how data is collected by. Downloads, bookmarks and reading list items will be saved.</p>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
             </div>
