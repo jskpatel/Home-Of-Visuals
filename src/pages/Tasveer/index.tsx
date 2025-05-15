@@ -38,7 +38,7 @@ const Tasveer: React.FC = () => {
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-md:[376px]  h-[80vh]object-cover object-center' />
+                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
                 <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>So you can browse more privately. Downloads, bookmarks and reading list items will be saved.</p>
@@ -46,7 +46,7 @@ const Tasveer: React.FC = () => {
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[376px]md: object-cover object- h-[80vh]center' />
+                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
                 <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>How data is collected by websites that Downloads, bookmarks and reading list items will be saved.</p>
