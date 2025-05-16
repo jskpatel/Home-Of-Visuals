@@ -1,20 +1,42 @@
 @import "tailwindcss";
 
-.island-moments-regular {
-  font-family: "Island Moments", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'inter-light';
-  src: url('./assets//fonts/Inter-light.ttf') format('woff2');
+  src: url('./assets/fonts/Inter-light.ttf') format('woff2');
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: 'operetta';
+  src: url('./assets/fonts/Operetta-.otf') format('opentype');
+}
+@font-face {
+  font-family: 'operetta-light';
+  src: url('./assets/fonts/Operetta-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'operetta-bold';
+  src: url('./assets/fonts/Operetta-Bold.otf') format('opentype');
 }
 
 .inter-light {
   font-family: 'inter-light'
+}
+.operetta {
+  font-family: 'operetta'
+}
+.operetta-light {
+  font-family: 'operetta-light'
+}
+.operetta-bold {
+  font-family: 'operetta-bold'
+}
+
+.island-moments-regular {
+  font-family: "Island Moments", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html {
