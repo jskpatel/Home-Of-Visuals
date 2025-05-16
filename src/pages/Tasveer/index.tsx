@@ -24,7 +24,7 @@ const Tasveer: React.FC = () => {
                 <div className='w-full bg-white'>
                   <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
-                <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
+                <span className='lg:text-[20px] text-[16px] leading-10 capitalize operetta'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>Others who use this device won'This you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
@@ -32,7 +32,7 @@ const Tasveer: React.FC = () => {
                 <div className='w-full bg-white'>
                   <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
-                <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
+                <span className='lg:text-[20px] text-[16px] leading-10 capitalize operetta'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>Others who use this device won'websites that you visit and the  Google. Downloads, bookmarks and reading list items will be saved.</p>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
@@ -40,7 +40,7 @@ const Tasveer: React.FC = () => {
                 <div className='w-full bg-white'>
                   <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
-                <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
+                <span className='lg:text-[20px] text-[16px] leading-10 capitalize operetta'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>So you can browse more privately. Downloads, bookmarks and reading list items will be saved.</p>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
@@ -48,7 +48,7 @@ const Tasveer: React.FC = () => {
                 <div className='w-full bg-white'>
                   <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
-                <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
+                <span className='lg:text-[20px] text-[16px] leading-10 capitalize operetta'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>How data is collected by websites that Downloads, bookmarks and reading list items will be saved.</p>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
@@ -56,7 +56,7 @@ const Tasveer: React.FC = () => {
                 <div className='w-full bg-white'>
                   <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
-                <span className='lg:text-[20px] text-[16px] leading-10 capitalize'>Miral & Bhargav</span>
+                <span className='lg:text-[20px] text-[16px] leading-10 capitalize operetta'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>Others who use this device won'This won't change how data is collected by. Downloads, bookmarks and reading list items will be saved.</p>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>

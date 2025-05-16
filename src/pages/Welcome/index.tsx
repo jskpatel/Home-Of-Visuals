@@ -39,10 +39,10 @@ const Welcome: React.FC = () => {
                 </div>
 
                 <div className='z-10 md:w-[500px] w-full px-5 xl:ml-50'>
-                  <h1 className='uppercase font-bold xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-10 underline'>{slide.title}</h1>
+                  <h1 className='uppercase font-bold xl:text-[48px] lg:text-[40px] text-[30px] leading-10 z-10 operetta border-b-2 px-0 w-fit mx-auto'>{slide.title}</h1>
                   <h2 className='island-moments-regular mb-24 font-light xl:text-[30px] lg:text-[24px] text-[20px] lg:leading-16 leading-13 z-10 mt-8'>{slide.subtitle}</h2>
 
-                  <Link to="/hov" className='md:text-[30px] text-[24px] leading-16 md:mt-24 mt-14 font-light border border-3 rounded-sm md:px-24 px-20 md:py-5 py-4 z-10'>
+                  <Link to="/hov" className='md:text-[30px] text-[20px] leading-16 md:mt-24 mt-14 font-light border md:border-3 border-1 rounded-sm md:px-24 px-10 md:py-5 py-2 z-10'>
                     WELCOME
                   </Link>
                 </div>

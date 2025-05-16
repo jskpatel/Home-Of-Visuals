@@ -2,6 +2,7 @@ import React from 'react'
 import { images } from '../../assets/images'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
+import { videos } from '../../assets/videos/video';
 
 const Home: React.FC = () => {
 
@@ -11,19 +12,18 @@ const Home: React.FC = () => {
     { id: 3, image1: images.tasveerThumb_1, image2: images.tasveerThumb_2, title: 'Lillyo & Vincholy', description: "Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved." },
   ];
 
-
   return (
     <main>
       <section>
         <div className="w-full h-[100vh] bg-[#D9D9D9] text-center flex items-center justify-center flex-col text-white relative overflow-hidden">
-          <video src="http://homeofvisuals.in/assets/home/homePage.mp4" autoPlay muted loop className='h-[100vh] w-full object-cover object-center'></video>
+          <video src={videos.homeHeaderVideo} autoPlay muted loop className='h-[100vh] w-full object-cover object-center'></video>
         </div>
       </section>
 
       <section>
         <div className="text-center max-w-[580px] mx-auto px-5 py-25 sm:mb-20 mb-10" >
-          <h2 className='lg:text-[20px] text-[24px] lg:leading-30 leading-20 mb-6 uppercase tracking-[5px]'>Our mission</h2>
-          <h3 className='lg:text-[65px] md:text-[45px] text-[44px] lg:leading-30 leading-18 font-light'>To break <span className='block italic'>Stereotypes one</span> frame at a time</h3>
+          <h2 className='lg:text-[20px] text-[24px] lg:leading-30 leading-20 mb-6 uppercase tracking-[5px] operetta-bold'>Our mission</h2>
+          <h3 className='lg:text-[65px] md:text-[45px] text-[44px] lg:leading-30 leading-18 font-light operetta'>To break <span className='block italic'>Stereotypes one</span> frame at a time</h3>
 
           <div className="flex justify-center items-center my-14">
             <div className="h-[100px] w-[100px]">
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
 
       <section>
         <div className="flex flex-col justify-center items-center lg:py-24 py-10 px-5 lg:mb-20 mb-16">
-          <h2 className='lg:text-[128px] md:text-[100px] text-[70px] lg:leading-50 md:leading-40 leading-30 lg:-mb-14 sm:-mb-10 -mb-5 text-center font-light'><i>Client</i> PRAISE</h2>
+          <h2 className='lg:text-[128px] md:text-[100px] text-[70px] lg:leading-50 md:leading-40 leading-30 lg:-mb-14 sm:-mb-10 -mb-5 text-center font-light operetta-light'><i>Client</i> PRAISE</h2>
 
           <div className='flex max-w-[753px] w-full mx-auto justify-center text-center relative'>
             <Swiper
@@ -75,7 +75,7 @@ const Home: React.FC = () => {
                     </div>
                   </div>
 
-                  <h3 className='lg:text-[36px] text-[30px] lg:leading-17 leading-10 Capitalize mt-24 mb-10'>{slide.title}</h3>
+                  <h3 className='lg:text-[36px] text-[30px] lg:leading-17 leading-10 Capitalize mt-24 mb-10 operetta'>{slide.title}</h3>
 
                   <p className='lg:text-[24px] text-[20px] lg:leading-15 leading-12 font-light max-w-[753px] text-center'>{slide.description}</p>
                 </SwiperSlide>

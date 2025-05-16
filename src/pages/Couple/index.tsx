@@ -10,7 +10,7 @@ const Couple: React.FC = () => {
             <img src={images.tasveerThumb_5} alt="Tasveer" className='bg-[#ededed] lg:max-w-[940px] lg:h-[600px] w-full h-[400px] object-cover object-center mx-auto' />
           </div>
 
-          <h2 className="lg:text-[50px] text-[40px] lg:leading-24 leading-16 mb-8 text-center text-white uppercase mt-24">Miral & bhargav</h2>
+          <h2 className="lg:text-[50px] text-[40px] lg:leading-24 leading-16 mb-8 text-center text-white uppercase mt-24 operetta">Miral & bhargav</h2>
           <p className='lg:text-[26px] text-[20px] lg:leading-14 leading-12 font-light text-center text-white lg:w-[940px] max-w-[600px] w-full mx-auto'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
 
           <div className="flex w-full max-w-[940px] mx-auto bg-white rounded-[30px] h-auto my-20">

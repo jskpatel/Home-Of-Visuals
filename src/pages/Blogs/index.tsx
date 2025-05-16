@@ -18,7 +18,7 @@ const BlogList: React.FC = () => {
             <div className="flex flex-wrap justify-center lg:gap-x-35 gap-x-10 w-fit" >
 
               <div className="flex flex-col max-w-[800px] py-14" >
-                <h2 className='mb-3 text-[24px] leading-12 mb-10'>01. TIPS FOR YOUR BIG DAY.</h2>
+                <h2 className='mb-3 text-[24px] leading-12 mb-10 operetta'>01. TIPS FOR YOUR BIG DAY.</h2>
                 <p className='mb-3 text-[15px] leading-10 mb-10'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved....</p>
 
                 <div className="flex bg-[#d9d9d9]">
@@ -28,7 +28,7 @@ const BlogList: React.FC = () => {
               </div>
 
               <div className="flex flex-col max-w-[800px] py-14" >
-                <h2 className='mb-3 text-[24px] leading-12 mb-10'>02. TIPS FOR YOUR BIG DAY.</h2>
+                <h2 className='mb-3 text-[24px] leading-12 mb-10 operetta'>02. TIPS FOR YOUR BIG DAY.</h2>
                 <p className='mb-3 text-[15px] leading-10 mb-10'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved....</p>
 
                 <div className="flex bg-[#d9d9d9]">
@@ -38,7 +38,7 @@ const BlogList: React.FC = () => {
               </div>
 
               <div className="flex flex-col max-w-[800px] py-14" >
-                <h2 className='mb-3 text-[24px] leading-12 mb-10'>03. TIPS FOR YOUR BIG DAY.</h2>
+                <h2 className='mb-3 text-[24px] leading-12 mb-10 operetta'>03. TIPS FOR YOUR BIG DAY.</h2>
                 <p className='mb-3 text-[15px] leading-10 mb-10'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved....</p>
 
                 <div className="flex bg-[#d9d9d9]">
