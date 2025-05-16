@@ -12,13 +12,11 @@ import Blog_1 from "./blog_1.jpg"
 import Blog_2 from "./blog_2.jpg"
 import Blog_3 from "./blog_3.jpg"
 import HOVSymbol from "./hov-symbol-black.png"
-import Kohli from "./kohli.jpg"
-import Bumrah from "./bumrah.jpg"
-import HOV_1 from "./hov_1.svg"
+import HOV_1 from "./hov_1.jpg"
 import HOV_2 from "./hov_2.svg"
-import HOV_3 from "./hov_3.svg"
+import HOV_3 from "./hov_3.jpg"
 import HOV_4 from "./hov_4.svg"
-import HOV_5 from "./hov_5.svg"
+import HOV_5 from "./hov_5.jpg"
 
 export const images = {
   welcome: Welcome,
@@ -35,8 +33,6 @@ export const images = {
   blog_2: Blog_2,
   blog_3: Blog_3,
   hovSymbol: HOVSymbol,
-  kohli: Kohli,
-  bumrah: Bumrah,
   HOV_1: HOV_1,
   HOV_2: HOV_2,
   HOV_3: HOV_3,
