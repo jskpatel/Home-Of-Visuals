@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { RiPlayLargeFill } from 'react-icons/ri'
 import { videos } from '../../assets/videos/video';
+import ReactPlayer from 'react-player';
 
 const Ghaatha: React.FC = () => {
 
@@ -124,13 +125,22 @@ const Ghaatha: React.FC = () => {
             >
               ✕
             </button>
-            <iframe
+            {/* <iframe
               className="xl:w-[992px] md:w-[700px] w-full xl:h-[550px] md:h-[408px] h-[250px]"
               src={`${videoSrc}?controls=1&autoplay=1&mute=0&modestbranding=1&rel=0`}
               title="YouTube video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
               allowFullScreen
-            ></iframe>
+            ></iframe> */}
+
+            <ReactPlayer
+              url={videoSrc}
+              playing
+              muted
+              controls
+              className="!xl:w-[992px] !md:w-[700px] !w-full !xl:h-[650px] !md:h-[408px] h-[250px]"
+            />
+
           </div>
         </div>
       )}
