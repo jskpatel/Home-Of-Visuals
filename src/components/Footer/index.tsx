@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
               <Link to="/" className="rounded-full h-[60px] w-[60px] flex items-center justify-center text-[50px] cursor-pointer text-pink-800" title='Instagram'><FaInstagram /></Link>
             </div>
 
-            <ul className='p-0 m-0 flex flex-row lg:gap-20 gap-10 uppercase lg:text-[26px] text-[16px] lg:leading-17 leading-12 w-full text-center justify-center'>
+            <ul className='p-0 m-0 flex flex-row lg:gap-20 gap-10 uppercase lg:text-[26px] text-[16px] lg:leading-17 leading-12 w-full text-center justify-center inter-light'>
               <li><Link to="/tasveers">TASVEERS</Link></li>
               <li><Link to="/contactus">BOOK US</Link></li>
               <li><Link to="/gaathas">GAATHA</Link></li>

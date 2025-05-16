@@ -33,10 +33,10 @@ const Header: React.FC = () => {
 
             <div className="flex md:flex-row flex-col md:items-center justify-between w-full uppercase">
               <div className={`flex shrink-0 md:items-center ml-3 ${showMobileNav ? 'mb-5' : 'mb-0'}`}>
-                <Link to="/" className='text-white font-bold lg:text-[26px] text-[20px] inter-light'>Home of visuals</Link>
+                <Link to="/" className='text-white font-bold lg:text-[26px] text-[20px] operetta-light'>Home of visuals</Link>
               </div>
               <div className={`md:w-fit w-full ${showMobileNav ? "" : "md:flex hidden"}`}>
-                <div className="flex md:flex-row flex-col lg:space-x-4 space-x-1 xl:text-[24px] lg:text-[20px] text-[16px] lg:tracking-[1px] tracking-none lg:font-semibold font-normal">
+                <div className="flex md:flex-row flex-col lg:space-x-4 space-x-1 xl:text-[24px] lg:text-[20px] text-[16px] lg:tracking-[1px] tracking-none font-normal">
                   <Link to="/hov" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)} aria-current="page">Home</Link>
                   <Link to="/aboutus" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>About</Link>
                   <Link to="/tasveers" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Tasveers</Link>
