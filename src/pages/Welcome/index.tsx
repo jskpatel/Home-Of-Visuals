@@ -6,9 +6,11 @@ import { Autoplay, EffectFade } from 'swiper/modules';
 
 const Welcome: React.FC = () => {
   const slides = [
-    { id: 1, title: 'home of visuals', subtitle: 'Where every tale becomes timeless.' },
-    { id: 2, title: 'visual stories', subtitle: 'Experience imagination come alive.' },
-    { id: 3, title: 'creative space', subtitle: 'Unleash your vision in every frame.' },
+    { id: 1, image: images.HOV_1, title: 'home of visuals', subtitle: 'Where every tale becomes timeless.' },
+    { id: 2, image: images.HOV_2, title: 'visual stories', subtitle: 'Experience imagination come alive.' },
+    { id: 3, image: images.HOV_3, title: 'creative space', subtitle: 'Unleash your vision in every frame.' },
+    { id: 3, image: images.HOV_4, title: 'home of visuals', subtitle: 'Experience imagination come alive.' },
+    { id: 3, image: images.HOV_5, title: 'creative space', subtitle: 'Unleash your vision in every frame.' },
   ];
 
   return (
@@ -35,10 +37,10 @@ const Welcome: React.FC = () => {
             <SwiperSlide key={slide.id}>
               <div className="w-full h-[calc(100vh-20px)] bg-[#EECACA] text-center flex md:items-start items-center justify-center flex-col text-white overflow-hidden relative">
                 <div className='w-full h-full absolute bg-black'>
-                  <img src={images.welcome} alt="Welcome" className='bg-[#EECACA] w-full h-full object-cover object-center absolute opacity-50' />
+                  <img src={slide.image} alt="Welcome" className='bg-[#EECACA] w-full h-full object-cover object-center absolute opacity-50' />
                 </div>
 
-                <div className='z-10 md:w-[500px] w-full px-5 xl:ml-50'>
+                <div className='z-10 md:w-[500px] w-full px-5 xl:ml-20'>
                   <h1 className='uppercase font-bold xl:text-[48px] lg:text-[40px] text-[30px] md:leading-18 leading-13 z-10 operetta border-b-1 px-0 w-fit mx-auto'>{slide.title}</h1>
                   <h2 className='island-moments-regular mb-24 font-light xl:text-[30px] lg:text-[24px] text-[20px] lg:leading-16 leading-10 z-10 mt-8'>{slide.subtitle}</h2>
 
