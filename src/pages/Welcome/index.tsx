@@ -6,10 +6,10 @@ import { Autoplay, EffectFade } from 'swiper/modules';
 
 const Welcome: React.FC = () => {
   const slides = [
-    { id: 1, image: images.HOV_1, title: 'home of visuals', subtitle: 'Where every tale becomes timeless.' },
+    { id: 1, image: images.HOV_4, title: 'home of visuals', subtitle: 'Where every tale becomes timeless.' },
     { id: 2, image: images.HOV_2, title: 'visual stories', subtitle: 'Experience imagination come alive.' },
     { id: 3, image: images.HOV_3, title: 'creative space', subtitle: 'Unleash your vision in every frame.' },
-    { id: 3, image: images.HOV_4, title: 'home of visuals', subtitle: 'Experience imagination come alive.' },
+    { id: 3, image: images.HOV_1, title: 'home of visuals', subtitle: 'Experience imagination come alive.' },
     { id: 3, image: images.HOV_5, title: 'creative space', subtitle: 'Unleash your vision in every frame.' },
   ];
 
