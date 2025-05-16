@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { RiPlayLargeFill } from 'react-icons/ri'
-import { images } from '../../assets/images'
 import { videos } from '../../assets/videos/video';
 
 const Ghaatha: React.FC = () => {
@@ -39,7 +38,7 @@ const Ghaatha: React.FC = () => {
       <section>
         <div className="w-full h-[85vh] min-h-[400px] bg-[#D9D9D9] text-center flex items-center justify-center flex-col text-white relative overflow-hidden">
           <video src={videos.gaathaHeaderVideo} autoPlay muted loop className='h-full w-full object-cover object-center absolute'></video>
-          {/* <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1'>Gaatha</h1> */}
+          {/* <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1 operetta'>Gaatha</h1> */}
         </div>
       </section>
 
@@ -52,40 +51,60 @@ const Ghaatha: React.FC = () => {
             <div className="flex flex-wrap justify-center lg:gap-x-15 gap-x-10 gap-y-15 w-fit" >
 
               <div className='lg:w-[490px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src={images.kohli} alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/l2yeP2M1yAM/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
-                  onClick={() => handlePlayClick('https://www.youtube.com/embed/9xwazD5SyVg')}
+                  onClick={() => handlePlayClick('https://youtube.com/embed/l2yeP2M1yAM')}
                 >
                   <RiPlayLargeFill />
                 </span>
               </div>
 
               <div className='lg:w-[490px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src={images.bumrah} alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/N5rBCoFOYvc/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
-                  onClick={() => handlePlayClick('https://www.youtube.com/embed/9xwazD5SyVg')}
+                  onClick={() => handlePlayClick('https://youtube.com/embed/N5rBCoFOYvc')}
                 >
                   <RiPlayLargeFill />
                 </span>
               </div>
 
               <div className='lg:w-[490px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src={images.kohli} alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/G13mr8XgDGE/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
-                  onClick={() => handlePlayClick('https://www.youtube.com/embed/9xwazD5SyVg')}
+                  onClick={() => handlePlayClick('https://youtube.com/embed/G13mr8XgDGE')}
                 >
                   <RiPlayLargeFill />
                 </span>
               </div>
 
               <div className='lg:w-[490px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src={images.bumrah} alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/U0Mn2YN1L2M/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
-                  onClick={() => handlePlayClick('https://www.youtube.com/embed/9xwazD5SyVg')}
+                  onClick={() => handlePlayClick('https://youtube.com/embed/U0Mn2YN1L2M')}
+                >
+                  <RiPlayLargeFill />
+                </span>
+              </div>
+
+              <div className='lg:w-[490px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5 relative'>
+                <img src="https://img.youtube.com/vi/9I6mNNFP5rU/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <span
+                  className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
+                  onClick={() => handlePlayClick('https://youtube.com/embed/9I6mNNFP5rU')}
+                >
+                  <RiPlayLargeFill />
+                </span>
+              </div>
+
+              <div className='lg:w-[490px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5 relative'>
+                <img src="https://img.youtube.com/vi/6OvbfNdouno/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <span
+                  className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
+                  onClick={() => handlePlayClick('https://youtube.com/embed/6OvbfNdouno')}
                 >
                   <RiPlayLargeFill />
                 </span>
@@ -96,18 +115,18 @@ const Ghaatha: React.FC = () => {
         </div>
       </section>
 
-      {isModalOpen && (
+      {isModalOpen && videoSrc && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-opacity-50 bg-black/90">
           <div className="relative xl:w-[992px] md:w-[700px] w-full p-4 rounded-xl">
             <button
               onClick={closeModal}
-              className="absolute top-0 right-0 text-xl bg-white w-[30px] h-[30px] bg-white text-black rounded-md shadow-lg z-1 cursor-pointer opacity-80 hover:opacity-100"
+              className="absolute xl:-top-1 top-0 xl:-right-8 right-0 text-xl bg-white w-[30px] h-[30px] bg-white text-black rounded-md shadow-lg z-1 cursor-pointer opacity-80 hover:opacity-100"
             >
               ✕
             </button>
             <iframe
               className="xl:w-[992px] md:w-[700px] w-full xl:h-[550px] md:h-[408px] h-[250px]"
-              src={`${videoSrc!}?controls=1&autoplay=1&mute=0&modestbranding=1&rel=0`}
+              src={`${videoSrc}?controls=1&autoplay=1&mute=0&modestbranding=1&rel=0`}
               title="YouTube video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
               allowFullScreen

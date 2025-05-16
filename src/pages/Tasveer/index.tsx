@@ -9,7 +9,7 @@ const Tasveer: React.FC = () => {
       <section>
         <div className="w-full h-[85vh] min-h-[400px] bg-[#000] text-center flex items-center justify-center flex-col text-white relative">
           <img src={images.tasveerHeader} alt="Tasveer" className='bg-[#D9D9D9] w-full h-full object-cover object-center absolute opacity-90 grayscale' />
-          <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1 relative'>Tasveer</h1>
+          <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1 relative operetta'>Tasveer</h1>
         </div>
       </section>
 
@@ -30,7 +30,7 @@ const Tasveer: React.FC = () => {
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
+                  <img src={images.tasveerThumb_2} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
                 <span className='lg:text-[20px] text-[16px] leading-10 capitalize operetta'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>Others who use this device won'websites that you visit and the  Google. Downloads, bookmarks and reading list items will be saved.</p>
@@ -38,7 +38,7 @@ const Tasveer: React.FC = () => {
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
+                  <img src={images.tasveerThumb_3} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
                 <span className='lg:text-[20px] text-[16px] leading-10 capitalize operetta'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>So you can browse more privately. Downloads, bookmarks and reading list items will be saved.</p>
@@ -46,7 +46,7 @@ const Tasveer: React.FC = () => {
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
+                  <img src={images.tasveerThumb_4} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
                 <span className='lg:text-[20px] text-[16px] leading-10 capitalize operetta'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>How data is collected by websites that Downloads, bookmarks and reading list items will be saved.</p>
@@ -54,7 +54,7 @@ const Tasveer: React.FC = () => {
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-5'>
                 <div className='w-full bg-white'>
-                  <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
+                  <img src={images.tasveerThumb_5} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' />
                 </div>
                 <span className='lg:text-[20px] text-[16px] leading-10 capitalize operetta'>Miral & Bhargav</span>
                 <p className='text-[15px] leading-9'>Others who use this device won'This won't change how data is collected by. Downloads, bookmarks and reading list items will be saved.</p>

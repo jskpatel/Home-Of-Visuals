@@ -35,14 +35,14 @@ const Welcome: React.FC = () => {
             <SwiperSlide key={slide.id}>
               <div className="w-full h-[calc(100vh-20px)] bg-[#EECACA] text-center flex md:items-start items-center justify-center flex-col text-white overflow-hidden relative">
                 <div className='w-full h-full absolute bg-black'>
-                  <img src={images.welcome} alt="Welcome" className='bg-[#EECACA] w-full h-full object-cover object-center absolute opacity-80' />
+                  <img src={images.welcome} alt="Welcome" className='bg-[#EECACA] w-full h-full object-cover object-center absolute opacity-50' />
                 </div>
 
                 <div className='z-10 md:w-[500px] w-full px-5 xl:ml-50'>
-                  <h1 className='uppercase font-bold xl:text-[48px] lg:text-[40px] text-[30px] leading-10 z-10 operetta border-b-2 px-0 w-fit mx-auto'>{slide.title}</h1>
-                  <h2 className='island-moments-regular mb-24 font-light xl:text-[30px] lg:text-[24px] text-[20px] lg:leading-16 leading-13 z-10 mt-8'>{slide.subtitle}</h2>
+                  <h1 className='uppercase font-bold xl:text-[48px] lg:text-[40px] text-[30px] md:leading-18 leading-13 z-10 operetta border-b-1 px-0 w-fit mx-auto'>{slide.title}</h1>
+                  <h2 className='island-moments-regular mb-24 font-light xl:text-[30px] lg:text-[24px] text-[20px] lg:leading-16 leading-10 z-10 mt-8'>{slide.subtitle}</h2>
 
-                  <Link to="/hov" className='md:text-[30px] text-[20px] leading-16 md:mt-24 mt-14 font-light border md:border-3 border-1 rounded-sm md:px-24 px-10 md:py-5 py-2 z-10'>
+                  <Link to="/hov" className='md:text-[30px] text-[20px] leading-16 md:mt-24 mt-14 font-normal border md:border-3 border-1 rounded-sm md:px-24 px-10 md:py-5 py-2 z-10'>
                     WELCOME
                   </Link>
                 </div>
