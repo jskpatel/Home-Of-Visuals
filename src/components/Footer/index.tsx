@@ -16,9 +16,9 @@ const Footer: React.FC = () => {
             </p>
 
             <div className="flex lg:gap-24 gap-14 justify-center items-center my-24">
-              <Link to="/" className="rounded-full h-[60px] w-[60px] flex items-center justify-center text-[50px] cursor-pointer text-green-700" title='Whatsapp'><FaWhatsapp  /></Link>
-              <Link to="/" className="rounded-full h-[60px] w-[60px] flex items-center justify-center text-[50px] cursor-pointer text-red-500" title='Youtube'><FiYoutube  /></Link>
-              <Link to="/" className="rounded-full h-[60px] w-[60px] flex items-center justify-center text-[50px] cursor-pointer text-pink-800" title='Instagram'><FaInstagram /></Link>
+              <a href='' target='_blank' className="rounded-full h-[60px] w-[60px] flex items-center justify-center text-[50px] cursor-pointer text-green-700" title='Whatsapp'><FaWhatsapp  /></a>
+              <a href='' target='_blank' className="rounded-full h-[60px] w-[60px] flex items-center justify-center text-[50px] cursor-pointer text-red-500" title='Youtube'><FiYoutube  /></a>
+              <a href='https://www.instagram.com/thehomeofvisuals?utm_source=qr&igsh=MTZjam02eGo1ZjFxYQ==' target='_blank' className="rounded-full h-[60px] w-[60px] flex items-center justify-center text-[50px] cursor-pointer text-pink-800" title='Instagram'><FaInstagram /></a>
             </div>
 
             <ul className='p-0 m-0 flex flex-row lg:gap-20 gap-10 uppercase lg:text-[26px] text-[16px] lg:leading-17 leading-12 w-full text-center justify-center inter-light'>
