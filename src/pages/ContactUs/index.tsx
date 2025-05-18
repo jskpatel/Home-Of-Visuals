@@ -1,10 +1,11 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import { images } from '../../assets/images'
 import SubmitButton from '../../components/SubmitButton'
 
 const ContactUs: React.FC = () => {
 
+  const [status, setStatus] = useState<'success' | 'error' | null>(null);
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
@@ -14,14 +15,24 @@ const ContactUs: React.FC = () => {
 
     // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
     // emailjs.sendForm('service_0kejk5s', 'template_2hakuw8', form.current, 'LAmaVI7VURXH5Ls-T')
-    emailjs.sendForm('service_iwjai5a', 'template_amrx93e', form.current, '31dW-ybEd3wXO6gMf-T')
+    emailjs.sendForm('service_iwjai5a', 'template_amrx93e', form.current, '31dW-ybEd3wXO6gMf')
       .then((result) => {
         console.log('Message sent:', result.text);
+        setStatus('success');
         form.current?.reset();
       }, (error) => {
+        setStatus('error');
         console.error('Message failed:', error.text);
       });
   };
+
+  const handleClickSubmit = () => {
+    setTimeout(() => {
+      setStatus(null)
+    }, 5000)
+  }
+
+
   return (
     <main>
       <section>
@@ -44,6 +55,10 @@ const ContactUs: React.FC = () => {
                 <span className="rounded-full h-[60px] w-[60px] bg-[#d9d9d9]"></span>
                 <span className="rounded-full h-[60px] w-[60px] bg-[#d9d9d9]"></span>
               </div>
+
+
+              {status === 'success' && <p className="text-green-500 bg-green-100 w-full px-6 py-3 text-[16px]">Message sent successfully!</p>}
+              {status === 'error' && <p className="text-red-500 bg-red-100 w-full px-6 py-3 text-[16px]">Failed to send message. Please try again.</p>}
 
               <form className="w-full" ref={form} onSubmit={sendEmail}>
                 <div className='flex flex-col mb-8'>
@@ -81,9 +96,9 @@ const ContactUs: React.FC = () => {
                 <div className='flex flex-col mb-8'>
                   <label className='lg:text-[24px] text-[16px] lg:leading-24 leading-16'>Looking for services</label>
                   <ul className='lg:text-[24px] text-[16px] lg:leading-24 leading-10 flex flex-col lg:gap-0 gap-5 pl-2'>
-                    <li className='flex items-center lg:gap-8 gap-5'><input type='checkbox' name="services" className='lg:scale-[1.7] scale-[1.1]' /> Photography</li>
-                    <li className='flex items-center lg:gap-8 gap-5'><input type='checkbox' name="services" className='lg:scale-[1.7] scale-[1.1]' /> Filmmaking</li>
-                    <li className='flex items-center lg:gap-8 gap-5'><input type='checkbox' name="services" className='lg:scale-[1.7] scale-[1.1]' /> Photography & Filmmaking</li>
+                    <li className='flex items-center lg:gap-8 gap-5'><input type='checkbox' name="services[]" value="Photography" className='lg:scale-[1.7] scale-[1.1]' /> Photography</li>
+                    <li className='flex items-center lg:gap-8 gap-5'><input type='checkbox' name="services[]" value="Filmmaking" className='lg:scale-[1.7] scale-[1.1]' /> Filmmaking</li>
+                    <li className='flex items-center lg:gap-8 gap-5'><input type='checkbox' name="services[]" value="Photography & Filmmaking" className='lg:scale-[1.7] scale-[1.1]' /> Photography & Filmmaking</li>
                   </ul>
                 </div>
 
@@ -93,7 +108,7 @@ const ContactUs: React.FC = () => {
                 </div>
 
                 <div className='flex flex-col mb-8'>
-                  <SubmitButton />
+                  <SubmitButton onClick={handleClickSubmit} />
                 </div>
 
               </form>
