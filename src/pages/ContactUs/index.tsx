@@ -48,34 +48,34 @@ const ContactUs: React.FC = () => {
               <form className="w-full" ref={form} onSubmit={sendEmail}>
                 <div className='flex flex-col mb-8'>
                   <label className='lg:text-[24px] text-[16px] lg:leading-24 leading-16'>Bride - Groom Name</label>
-                  <input type="text" name="name" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px]' />
+                  <input type="text" name="name" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px]' required />
                 </div>
 
                 <div className="flex justify-between w-full flex-wrap md:flex-row flex-col">
                   <div className='flex flex-col mb-8 md:w-[48%] w-full'>
                     <label className='lg:text-[24px] text-[16px] lg:leading-24 leading-16'>Email</label>
-                    <input type="email" name="email" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px]' />
+                    <input type="email" name="email" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px]' required />
                   </div>
 
                   <div className='flex flex-col mb-8 md:w-[48%] w-full'>
                     <label className='lg:text-[24px] text-[16px] lg:leading-24 leading-16'>Phone</label>
-                    <input type="tel" name="phone" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px]' />
+                    <input type="tel" name="phone" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px]' required />
                   </div>
 
                   <div className='flex flex-col mb-8 md:w-[48%] w-full'>
                     <label className='lg:text-[24px] text-[16px] lg:leading-24 leading-16'>No of Guests</label>
-                    <input type="text" name="guestCount" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px]' />
+                    <input type="text" name="guestCount" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px]' required />
                   </div>
 
                   <div className='flex flex-col mb-8 md:w-[48%] w-full'>
                     <label className='lg:text-[24px] text-[16px] lg:leading-24 leading-16'>Events Dates</label>
-                    <input type="date" name="date" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px] appearance-none' />
+                    <input type="date" name="date" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px] appearance-none' required />
                   </div>
                 </div>
 
                 <div className='flex flex-col mb-8'>
                   <label className='lg:text-[24px] text-[16px] lg:leading-24 leading-16'>Location of Wedding</label>
-                  <input type="text" name="location" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px]' />
+                  <input type="text" name="location" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[52px]' required />
                 </div>
 
                 <div className='flex flex-col mb-8'>
