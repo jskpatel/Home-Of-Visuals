@@ -42,7 +42,7 @@ const AboutUs: React.FC = () => {
       </section>
 
       <section className='flex-1'>
-        <div className='bg-[#EECACA] h-[100vh] min-h-[300px] px-15 flex items-center'>
+        <div className='bg-[#dfc1b1] h-[100vh] min-h-[300px] px-15 flex items-center'>
           <div className='text-white text-center flex items-center justify-center flex-col max-w-[500px] mx-auto py-20 min-h-[calc(100vh-500px)]'>
             <h2 className='lg:text-[50px] text-[40px] lg:leading-24 leading-16 mb-8 font-light'>Break The Stereotypes</h2>
             <p className='lg:text-[26px] text-[20px] lg:leading-14 leading-12 font-light'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
