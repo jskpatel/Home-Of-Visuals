@@ -17,6 +17,7 @@ import HOV_2 from "./hov_2.svg"
 import HOV_3 from "./hov_3.jpg"
 import HOV_4 from "./hov_4.svg"
 import HOV_5 from "./hov_5.jpg"
+import Couple from "./couple-audio.mp3"
 
 export const images = {
   welcome: Welcome,
@@ -38,4 +39,8 @@ export const images = {
   HOV_3: HOV_3,
   HOV_4: HOV_4,
   HOV_5: HOV_5,
+}
+
+export const audio = {
+  couple: Couple
 }
