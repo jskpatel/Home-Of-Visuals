@@ -36,7 +36,7 @@ const Header: React.FC = () => {
                 <Link to="/" className='text-white lg:text-[26px] text-[20px] operetta-light'>Home of visuals</Link>
               </div>
               <div className={`md:w-fit w-full ${showMobileNav ? "md:mt-0 mt-10" : "md:flex hidden"}`}>
-                <div className="flex md:flex-row flex-col lg:space-x-4 space-x-1 text-[13px] lg:text-[20px] text-[16px] lg:tracking-[1px] tracking-none font-normal">
+                <div className="flex md:flex-row flex-col lg:space-x-10 space-x-1 text-[13px] lg:text-[20px] text-[16px] lg:tracking-[1px] tracking-none font-normal">
                   <Link to="/hov" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)} aria-current="page">Home</Link>
                   <Link to="/aboutus" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>About</Link>
                   <Link to="/tasveers" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Tasveers</Link>

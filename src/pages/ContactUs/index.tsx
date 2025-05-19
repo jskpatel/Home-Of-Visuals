@@ -52,8 +52,8 @@ const ContactUs: React.FC = () => {
               <p className='mb-3 text-[18px] leading-12 lg:mb-10 mb-0 text-center font-normal'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved</p>
 
               <div className="flex lg:gap-24 gap-14 justify-center items-center mb-20 w-full">
-                  <a href='' target='_blank' className="border-1 rounded-md uppercase px-20 py-5 flex items-center text-[22px] justify-center gap-4 cursor-pointer" title='Whatsapp'>
-                    <FaWhatsapp className='h-[24px] w-[24px] text-green-600' /> Book Us
+                  <a href='' target='_blank' className="border-1 rounded-md uppercase px-20 py-5 flex items-center text-[18px] justify-center gap-4 cursor-pointer" title='Whatsapp'>
+                    <FaWhatsapp className='h-[20px] w-[20px] text-green-600' /> Let's connect
                   </a>
               </div>
 
@@ -64,39 +64,39 @@ const ContactUs: React.FC = () => {
 
                 <form className="w-full" ref={form} onSubmit={sendEmail}>
                   <div className='flex flex-col mb-5'>
-                    <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Bride - Groom Name</label>
+                    <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Bride - Groom Name<span className='text-red-500'>*</span></label>
                     <input type="text" name="name" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[40px]' required />
                   </div>
 
                   <div className="flex justify-between w-full flex-wrap md:flex-row flex-col">
                     <div className='flex flex-col mb-5 md:w-[48%] w-full'>
-                      <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Email</label>
+                      <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Email<span className='text-red-500'>*</span></label>
                       <input type="email" name="email" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[40px]' required />
                     </div>
 
                     <div className='flex flex-col mb-5 md:w-[48%] w-full'>
-                      <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Phone</label>
+                      <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Phone<span className='text-red-500'>*</span></label>
                       <input type="tel" name="phone" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[40px]' required />
                     </div>
 
                     <div className='flex flex-col mb-5 md:w-[48%] w-full'>
-                      <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>No of Guests</label>
+                      <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>No of Guests<span className='text-red-500'>*</span></label>
                       <input type="text" name="guestCount" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[40px]' required />
                     </div>
 
                     <div className='flex flex-col mb-5 md:w-[48%] w-full'>
-                      <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Events Dates</label>
+                      <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Events Dates<span className='text-red-500'>*</span></label>
                       <input type="date" name="date" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[40px] appearance-none' required />
                     </div>
                   </div>
 
                   <div className='flex flex-col mb-5'>
-                    <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Location of Wedding</label>
+                    <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Location of Wedding<span className='text-red-500'>*</span></label>
                     <input type="text" name="location" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px] h-[40px]' required />
                   </div>
 
                   <div className='flex flex-col mb-5'>
-                    <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Looking for services</label>
+                    <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Looking for services<span className='text-red-500'>*</span></label>
                     <ul className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 flex flex-col lg:gap-0 gap-5 pl-2  operetta-light'>
                       <li className='flex items-center lg:gap-8 gap-5'><input type='checkbox' name="services[]" value="Photography" className='lg:scale-[1.7] scale-[1.1]' /> Photography</li>
                       <li className='flex items-center lg:gap-8 gap-5'><input type='checkbox' name="services[]" value="Filmmaking" className='lg:scale-[1.7] scale-[1.1]' /> Filmmaking</li>
@@ -105,7 +105,7 @@ const ContactUs: React.FC = () => {
                   </div>
 
                   <div className='flex flex-col mb-5'>
-                    <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Tell us more about your wedding - event flow, venues</label>
+                    <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Tell us more about your wedding - event flow, venues<span className='text-red-500'>*</span></label>
                     <textarea rows={5} name="description" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[18px]'></textarea>
                   </div>
 

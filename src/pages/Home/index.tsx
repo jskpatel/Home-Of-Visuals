@@ -23,7 +23,7 @@ const Home: React.FC = () => {
 
       <section>
         <div className="text-center max-w-[580px] mx-auto px-5 py-15 mb-10" >
-          <h2 className='text-[16px] leading-30 mb-6 uppercase tracking-[5px] operetta'>Our mission</h2>
+          <h2 className='text-[16px] leading-30 mb-6 uppercase tracking-[5px] inter-light'>Our mission</h2>
           <h3 className='lg:text-[45px] md:text-[35px] text-[30px] lg:leading-22 leading-14 font-light operetta'>To break <span className='block italic'>Stereotypes one</span> frame at a time</h3>
 
           <div className="flex justify-center items-center my-10">

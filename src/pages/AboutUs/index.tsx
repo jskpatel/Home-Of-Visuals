@@ -2,51 +2,54 @@ import React from 'react'
 import { images } from '../../assets/images'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay } from 'swiper/modules'
+import { Autoplay, EffectFade } from 'swiper/modules'
 
 const AboutUs: React.FC = () => {
 
   const slides = [images.tasveerThumb_1, images.tasveerThumb_2, images.tasveerThumb_3];
 
   return (
-    <main className='flex md:flex-row flex-col w-full h-full'>
-      <section className='flex-1'>
-        <div className="w-full h-[100vh] min-h-[400px] bg-[#D9D9D9] text-center flex items-center justify-center flex-col text-white relative overflow-hidden">
+    <main className='flex lg:flex-row flex-col w-full h-full relative'>
+      <section className='relative lg:w-[50%] w-[100%]'>
+        <div className="w-full h-[100vh] min-h-[400px] bg-[#000] text-center flex items-center justify-center flex-col relative overflow-hidden relative">
           <Swiper
-            modules={[Autoplay]}
+            direction="vertical"
+            modules={[Autoplay, EffectFade]}
             spaceBetween={0}
             slidesPerView={1}
             loop={true}
             autoplay={{
-              delay: 1000,
+              delay: 4000,
               disableOnInteraction: false,
             }}
-            speed={100}
+            effect="fade"
+            fadeEffect={{
+              crossFade: true,
+            }}
+            speed={1000}
             className="w-full"
           >
             {slides.map((slide: string, i: number) => (
               <SwiperSlide key={i}>
-                <div className="relative w-full h-full">
+                <div className="relative">
                   <img
                     src={slide}
                     alt="Tasveer"
-                    className='bg-[#D9D9D9] w-full h-full object-cover object-center absolute grayscale'
+                    className='bg-[#D9D9D9] h-[100vh] w-[100vw] object-cover object-center relative grayscale'
                   />
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
-          {/* <img src={images.aboutHeader} alt="Tasveer" className='bg-[#D9D9D9] w-full h-full object-cover object-center absolute grayscale' /> */}
-          {/* <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 relative z-1'>about</h1> */}
         </div>
       </section>
 
-      <section className='flex-1'>
-        <div className='bg-[#dfc1b1] h-[100vh] min-h-[300px] px-15 flex items-center'>
-          <div className='text-white text-center flex items-center justify-center flex-col max-w-[500px] mx-auto py-20 min-h-[calc(100vh-500px)]'>
-            <h2 className='lg:text-[50px] text-[40px] lg:leading-24 leading-16 mb-8 font-light'>Break The Stereotypes</h2>
-            <p className='lg:text-[26px] text-[20px] lg:leading-14 leading-12 font-light'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
-            <Link to="/aboutus" className='uppercase text-[16px] text-white border border-1 py-5 px-15 mt-20 flex tracking-[5px]'>Frame your forever</Link>
+      <section className='relative lg:w-[50%] w-[100%]'>
+        <div className='bg-[#dfc1b1] lg:h-[100vh] min-h-[300px] px-15 flex items-center'>
+          <div className='text-center flex items-center justify-center flex-col max-w-[400px] mx-auto py-20 min-h-[calc(100vh-500px)]'>
+            <h2 className='lg:text-[44px] text-[30px] lg:leading-18 leading-10 mb-8 font-light operetta'>Every <i>love story deserves</i> its masterpiece.</h2>
+            <p className='text-[16px] leading-8 font-light'>Some photographers are directors, and some are  collectors. The team from Home of Visuals thrive on the thin line between the two - while some moments need direction, the others solely need to be collected. Through our blend of creativity, passion, and love for love, we craft visual narratives reflective of all the emotions and an unforgettable trip down your memory lane - from the laughter that fills the air to stolen glances, down till the bittersweet tears.</p>
+            <Link to="/contactus" className='uppercase text-[14px] border border-1 py-4 px-10 mt-20 flex tracking-[4px]'>Frame your forever</Link>
           </div>
         </div>
       </section>

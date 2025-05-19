@@ -23,35 +23,35 @@ const Tasveer: React.FC = () => {
                 <div className='w-full bg-white'>
                   <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[86vh] object-cover object-center' />
                 </div>
-                <span className='text-[22px] leading-10 capitalize operetta mt-2'>Miral & Bhargav</span>
+                <Link to="/tasveers/couple" className='text-[22px] leading-10 capitalize operetta mt-2'>Miral & Bhargav</Link>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-3'>
                 <div className='w-full bg-white'>
                   <img src={images.tasveerThumb_2} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[86vh] object-cover object-center' />
                 </div>
-                <span className='text-[22px] leading-10 capitalize operetta mt-2'>Miral & Bhargav</span>
+                <Link to="/tasveers/couple" className='text-[22px] leading-10 capitalize operetta mt-2'>Miral & Bhargav</Link>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-3'>
                 <div className='w-full bg-white'>
                   <img src={images.tasveerThumb_3} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[86vh] object-cover object-center' />
                 </div>
-                <span className='text-[22px] leading-10 capitalize operetta mt-2'>Miral & Bhargav</span>
+                <Link to="/tasveers/couple" className='text-[22px] leading-10 capitalize operetta mt-2'>Miral & Bhargav</Link>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-3'>
                 <div className='w-full bg-white'>
                   <img src={images.tasveerThumb_4} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[86vh] object-cover object-center' />
                 </div>
-                <span className='text-[22px] leading-10 capitalize operetta mt-2'>Miral & Bhargav</span>
+                <Link to="/tasveers/couple" className='text-[22px] leading-10 capitalize operetta mt-2'>Miral & Bhargav</Link>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
               <div className='lg:w-[300px] md:w-[340px] w-full flex flex-col xl:gap-5 gap-3'>
                 <div className='w-full bg-white'>
                   <img src={images.tasveerThumb_5} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[86vh] object-cover object-center' />
                 </div>
-                <span className='text-[22px] leading-10 capitalize operetta mt-2'>Miral & Bhargav</span>
+                <Link to="/tasveers/couple" className='text-[22px] leading-10 capitalize operetta mt-2'>Miral & Bhargav</Link>
                 <Link to="/tasveers/couple" className='text-[14px] leading-8 flex gap-1 items-center'>Read More <MdArrowRightAlt className='text-[24px]' /></Link>
               </div>
             </div>
