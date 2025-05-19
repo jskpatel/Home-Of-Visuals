@@ -110,7 +110,7 @@ const ContactUs: React.FC = () => {
                   </div>
 
                   <div className='flex flex-col mb-5'>
-                    <SubmitButton onClick={handleClickSubmit} />
+                    <SubmitButton onclick={handleClickSubmit} />
                   </div>
 
                 </form>

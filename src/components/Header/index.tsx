@@ -7,8 +7,8 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <nav className="fixed w-full z-4">
-        <div className="w-full px-2 sm:px-6 lg:px-8 py-4">
+      <nav className={`absolute w-full z-4 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
+        <div className="w-full px-2 sm:px-6 lg:px-10 md:py-14 py-5">
           <div className="relative flex sm:items-center sm:justify-between">
 
             <div className="absolute right-5 flex md:hidden top-0">
@@ -33,10 +33,10 @@ const Header: React.FC = () => {
 
             <div className="flex md:flex-row flex-col md:items-center justify-between w-full uppercase">
               <div className={`flex shrink-0 md:items-center ml-3 ${showMobileNav ? 'mb-5' : 'mb-0'}`}>
-                <Link to="/" className='text-white font-bold lg:text-[26px] text-[20px] operetta-light'>Home of visuals</Link>
+                <Link to="/" className='text-white lg:text-[26px] text-[20px] operetta-light'>Home of visuals</Link>
               </div>
-              <div className={`md:w-fit w-full ${showMobileNav ? "" : "md:flex hidden"}`}>
-                <div className="flex md:flex-row flex-col lg:space-x-4 space-x-1 xl:text-[24px] lg:text-[20px] text-[16px] lg:tracking-[1px] tracking-none font-normal">
+              <div className={`md:w-fit w-full ${showMobileNav ? "md:mt-0 mt-10" : "md:flex hidden"}`}>
+                <div className="flex md:flex-row flex-col lg:space-x-4 space-x-1 text-[13px] lg:text-[20px] text-[16px] lg:tracking-[1px] tracking-none font-normal">
                   <Link to="/hov" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)} aria-current="page">Home</Link>
                   <Link to="/aboutus" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>About</Link>
                   <Link to="/tasveers" className="px-3 md:py-2 py-4 text-white md:w-fit w-full md:text-center text-left inter-light" onClick={() => setShowMobileNav(false)}>Tasveers</Link>

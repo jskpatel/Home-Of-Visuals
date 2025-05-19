@@ -1,8 +1,17 @@
 import React from 'react'
 
-const SubmitButton: React.FC = () => {
+interface SubmitButtonProps {
+  onclick: () => void
+}
+
+const SubmitButton: React.FC<SubmitButtonProps> = ({onclick}) => {
   return (
-    <button type='submit' className='bg-black text-white py-4 px-20 sm:w-fit w-full text-[20px] rounded-sm mt-10 cursor-pointer'>Submit</button>
+    <input
+      type='submit'
+      onClick={onclick}
+      className='bg-black text-white py-4 px-20 sm:w-fit w-full text-[20px] rounded-sm mt-10 cursor-pointer hover:bg-black-500'
+      value="Submit"
+    />
   )
 }
 
