@@ -9,7 +9,7 @@ const BlogDetails: React.FC = () => {
           <div className='flex flex-wrap justify-between gap-10 w-full max-w-[820px]'>
 
             <h2 className='xl:text-[50px] lg:text-[40px] md:text-[30px] text-[24px] xl:leading-30 lg:leading-24 md:leading-18 leading-12 text-center w-full mb-10 operetta'>MIRAL & BHARGAV </h2>
-            <p className='text-[18px] leading-11 text-center font-normal'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list.</p>
+            <p className='text-[18px] leading-11 text-center font-light'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list.</p>
 
             <div className="flex lg:gap-24 gap-14 justify-center items-center my-10 w-full">
               <span className="w-[611px]">
@@ -17,7 +17,7 @@ const BlogDetails: React.FC = () => {
               </span>
             </div>
 
-            <p className="text-[18px] leading-11 text-center font-normal">Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list.</p>
+            <p className="text-[18px] leading-13 text-center font-light">Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list.</p>
 
             <div className="flex flex-wrap gap-8 justify-center items-center my-10 w-full">
               <span className="w-[260px]">

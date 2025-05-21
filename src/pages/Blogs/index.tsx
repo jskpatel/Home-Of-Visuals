@@ -19,32 +19,32 @@ const BlogList: React.FC = () => {
 
               <div className="flex flex-col max-w-[800px] py-10" >
                 <h2 className='text-[22px] leading-12 mb-5 operetta text-center'>01. TIPS FOR YOUR BIG DAY.</h2>
-                <p className='text-[16px] leading-11 mb-10'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved....</p>
+                <p className='text-[16px] leading-11 mb-10 font-light'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved....</p>
 
                 <div className="flex bg-[#d9d9d9]">
                   <img src={images.blog_1} alt="" className='bg-[#D9D9D9] w-full lg:h-[405px] h-[250px] object-cover object-center' />
                 </div>
-                <Link to="/blogs/1" className='uppercase text-[15px] mt-4'>read more</Link>
+                <Link to="/blogs/1" className='uppercase text-[15px] mt-4 font-light'>read more</Link>
               </div>
 
               <div className="flex flex-col max-w-[800px] py-10" >
                 <h2 className='text-[22px] leading-12 mb-5 operetta text-center'>02. TIPS FOR YOUR BIG DAY.</h2>
-                <p className='text-[16px] leading-11 mb-10'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved....</p>
+                <p className='text-[16px] leading-11 mb-10 font-light'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved....</p>
 
                 <div className="flex bg-[#d9d9d9]">
                   <img src={images.blog_2} alt="" className='bg-[#D9D9D9] w-full lg:h-[405px] h-[250px] object-cover object-center' />
                 </div>
-                <Link to="/blogs/1" className='uppercase text-[15px] mt-4'>read more</Link>
+                <Link to="/blogs/1" className='uppercase text-[15px] mt-4 font-light'>read more</Link>
               </div>
 
               <div className="flex flex-col max-w-[800px] py-10" >
                 <h2 className='text-[22px] leading-12 mb-5 operetta text-center'>03. TIPS FOR YOUR BIG DAY.</h2>
-                <p className='text-[16px] leading-11 mb-10'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved....</p>
+                <p className='text-[16px] leading-11 mb-10 font-light'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved....</p>
 
                 <div className="flex bg-[#d9d9d9]">
                   <img src={images.blog_3} alt="" className='bg-[#D9D9D9] w-full lg:h-[405px] h-[250px] object-cover object-center' />
                 </div>
-                <Link to="/blogs/1" className='uppercase text-[15px] mt-4'>read more</Link>
+                <Link to="/blogs/1" className='uppercase text-[15px] mt-4 font-light'>read more</Link>
               </div>
 
             </div>
