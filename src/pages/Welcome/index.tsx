@@ -41,10 +41,11 @@ const Welcome: React.FC = () => {
                 </div>
 
                 <div className='z-10 md:w-[500px] w-full px-5 xl:ml-20'>
-                  <h1 className='uppercase font-bold xl:text-[40px] lg:text-[32px] text-[24px] md:leading-18 leading-13 z-10 operetta border-b-1 px-0 w-fit mx-auto'>HOME OF VISUALS</h1>
-                  <h2 className='island-moments-regular mb-24 font-light xl:text-[24px] lg:text-[20px] text-[16px] lg:leading-16 leading-10 z-10 mt-8'>Where every love story becomes timeless tale</h2>
+                  <h1 className='uppercase font-bold xl:text-[36px] lg:text-[30px] text-[24px] md:leading-18 leading-13 z-10 operetta border-b-1 px-0 w-fit mx-auto'>HOME OF VISUALS</h1>
+                  {/* <h2 className='island-moments-regular mb-24 font-light xl:text-[24px] lg:text-[20px] text-[16px] lg:leading-16 leading-10 operetta z-10 mt-8'>Where every love story becomes timeless tale</h2> */}
+                  <h2 className='mb-15 font-light xl:text-[20px] text-[16px] lg:leading-14 leading-10 operetta-light z-10 mt-4 tracking-[1px]'>Where every love story becomes timeless tale</h2>
 
-                  <Link to="/hov" className='md:text-[20px] text-[16px] leading-12 md:mt-14 mt-10 font-normal border md:border-2 border-1 rounded-sm md:px-24 px-10 md:py-5 py-2 z-10'>
+                  <Link to="/hov" className='md:text-[20px] text-[16px] leading-12 mt-5 font-normal border md:border-2 border-1 border-white rounded-md px-10 md:py-4 py-2 z-10 bg-transparent hover:bg-white text-white hover:text-black tracking-[1px] duration-200'>
                     WELCOME
                   </Link>
                 </div>
