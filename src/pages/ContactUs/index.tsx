@@ -29,7 +29,7 @@ const ContactUs: React.FC = () => {
       .then((result) => {
         console.log('Message sent:', result.text);
         setStatus('success');
-        // form.current?.reset();
+        form.current?.reset();
       }, (error) => {
         setStatus('error');
         console.error('Message failed:', error.text);
@@ -39,7 +39,7 @@ const ContactUs: React.FC = () => {
   const handleClickSubmit = () => {
     setTimeout(() => {
       setStatus(null)
-    }, 5000)
+    }, 8000)
   }
 
 
