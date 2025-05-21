@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
 
             <ul className='p-0 sm:m-0 mt-7 flex sm:flex-row flex-col lg:gap-20 sm:gap-10 gap-5 uppercase lg:text-[20px] text-[16px] leading-10 w-full text-center justify-center inter-light'>
               <li><Link to="/tasveers">TASVEERS</Link></li>
-              <li><Link to="/contactus">BOOK US</Link></li>
+              <li><Link to="/contactus">Lock US</Link></li>
               <li><Link to="/gaathas">GAATHA</Link></li>
               <li><Link to="/blogs">BLOGS</Link></li>
             </ul>
