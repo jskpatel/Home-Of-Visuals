@@ -24,8 +24,7 @@ const ContactUs: React.FC = () => {
     }
 
     // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-    // emailjs.sendForm('service_iwjai5a', 'template_amrx93e', form.current, '31dW-ybEd3wXO6gMf') // Meet + Priya
-    emailjs.sendForm('service_0kejk5s', 'template_2hakuw8', form.current, 'LAmaVI7VURXH5Ls-T') // Sunil Patel
+    emailjs.sendForm('service_iwjai5a', 'template_amrx93e', form.current, '31dW-ybEd3wXO6gMf') // Meet + Priya
       .then((result) => {
         console.log('Message sent:', result.text);
         setStatus('success');
