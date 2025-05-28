@@ -41,7 +41,7 @@ const Welcome: React.FC = () => {
                 </div>
 
                 <div className='z-10 md:w-[500px] w-full px-5 xl:ml-20'>
-                  <h1 className='uppercase font-bold xl:text-[36px] lg:text-[30px] text-[24px] md:leading-18 leading-13 z-10 operetta border-b-1 px-0 w-fit mx-auto'>HOME OF VISUALS</h1>
+                  <h1 className='uppercase font-bold xl:text-[36px] lg:text-[30px] text-[24px] md:leading-18 leading-13 z-10 operetta px-0 w-fit mx-auto'>HOME OF VISUALS</h1>
                   {/* <h2 className='island-moments-regular mb-24 font-light xl:text-[24px] lg:text-[20px] text-[16px] lg:leading-16 leading-10 operetta z-10 mt-8'>Where every love story becomes timeless tale</h2> */}
                   <h2 className='mb-15 font-light xl:text-[20px] text-[16px] lg:leading-14 leading-10 operetta-light z-10 mt-4 tracking-[1px]'>Where every love story becomes timeless tale</h2>
 

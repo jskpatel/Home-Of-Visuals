@@ -16,12 +16,12 @@ const Footer: React.FC = () => {
             </p>
 
             <div className="flex lg:gap-y-24 gap-14 justify-center items-center my-7">
-              <a href='' target='_blank' className="rounded-full h-[40px] w-[40px] flex items-center justify-center text-[50px] cursor-pointer text-white" title='Whatsapp'><FaWhatsapp  /></a>
-              <a href='' target='_blank' className="rounded-full h-[40px] w-[40px] flex items-center justify-center text-[50px] cursor-pointer text-white" title='Youtube'><FiYoutube  /></a>
-              <a href='https://www.instagram.com/thehomeofvisuals?utm_source=qr&igsh=MTZjam02eGo1ZjFxYQ==' target='_blank' className="rounded-full h-[40px] w-[40px] flex items-center justify-center text-[50px] cursor-pointer text-white" title='Instagram'><FaInstagram /></a>
+              <a href='' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Whatsapp'><FaWhatsapp  /></a>
+              <a href='' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Youtube'><FiYoutube  /></a>
+              <a href='https://www.instagram.com/thehomeofvisuals?utm_source=qr&igsh=MTZjam02eGo1ZjFxYQ==' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Instagram'><FaInstagram /></a>
             </div>
 
-            <ul className='p-0 sm:m-0 mt-7 flex sm:flex-row flex-col lg:gap-20 sm:gap-10 gap-5 uppercase lg:text-[20px] text-[16px] leading-10 w-full text-center justify-center inter-light'>
+            <ul className='p-0 sm:m-0 mt-7 flex flex-row lg:gap-20 sm:gap-10 gap-5 uppercase lg:text-[20px] text-[16px] leading-10 w-full text-center justify-center inter-light'>
               <li><Link to="/tasveers">TASVEERS</Link></li>
               <li><Link to="/contactus">Lock US</Link></li>
               <li><Link to="/gaathas">GAATHA</Link></li>

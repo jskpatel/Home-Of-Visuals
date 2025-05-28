@@ -24,8 +24,7 @@ const ContactUs: React.FC = () => {
     }
 
     // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-    emailjs.sendForm('service_iwjai5a', 'template_amrx93e', form.current, '31dW-ybEd3wXO6gMf') // Meet + Priya
-    // emailjs.sendForm('service_0kejk5s', 'template_2hakuw8', form.current, 'LAmaVI7VURXH5Ls-T') // Sunil Patel
+    emailjs.sendForm('service_iwjai5a', 'template_amrx93e', form.current, '31dW-ybEd3wXO6gMf')
       .then((result) => {
         console.log('Message sent:', result.text);
         setStatus('success');
@@ -61,8 +60,8 @@ const ContactUs: React.FC = () => {
               <p className='mb-3 text-[18px] leading-12 lg:mb-10 mb-0 text-center font-light'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved</p>
 
               <div className="flex lg:gap-24 gap-14 justify-center items-center mb-20 w-full">
-                <a href='' target='_blank' className="border-1 rounded-md uppercase px-20 py-5 flex items-center text-[16px] justify-center gap-4 cursor-pointer" title='Whatsapp'>
-                  <FaWhatsapp className='h-[20px] w-[20px] text-green-600' /> Let's connect
+                <a href='' target='_blank' className="border-1 rounded-md uppercase px-10 py-5 flex items-center text-[16px] justify-center gap-4 cursor-pointer" title='Whatsapp'>
+                  <FaWhatsapp className='h-[20px] w-[20px] text-black' /> Let's connect
                 </a>
               </div>
 
@@ -95,7 +94,10 @@ const ContactUs: React.FC = () => {
 
                     <div className='flex flex-col mb-5 md:w-[48%] w-full'>
                       <label className='lg:text-[16px] text-[14px] lg:leading-14 leading-10 operetta-light'>Events Dates<span className='text-red-500'>*</span></label>
-                      <input type="text" name="date" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[16px] font-light h-[40px] appearance-none' required />
+                      <div className="flex gap-3 sm:flex-row flex-col">
+                        <input type="date" name="from-date" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[16px] font-light h-[40px] appearance-none' required/>
+                        <input type="date" name="to-date" className='border border-1 border-black-800 w-full rounded-lg px-5 text-[16px] font-light h-[40px] appearance-none' required />
+                      </div>
                     </div>
                   </div>
 
@@ -129,7 +131,7 @@ const ContactUs: React.FC = () => {
           </div>
         </div>
       </section>
-      
+
     </main>
   )
 }

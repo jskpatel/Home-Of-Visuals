@@ -21,22 +21,22 @@ const Couple: React.FC = () => {
             <img src={images.tasveerThumb_5} alt="Tasveer" className='bg-[#ededed] lg:max-w-[940px] lg:h-[600px] w-full h-[400px] object-cover object-center mx-auto' />
           </div>
 
-          <h2 className="lg:text-[40px] text-[30px] lg:leading-16 leading-14 mb-8 text-center uppercase mt-24 operetta">Miral & bhargav</h2>
+          <h2 className="lg:text-[40px] text-[30px] lg:leading-16 leading-14 text-center uppercase mt-14 operetta">Miral & bhargav</h2>
           <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
 
-          <div className="flex w-full max-w-[940px] mx-auto bg-white rounded-[30px] h-auto my-20">
+          <div className="flex w-full max-w-[940px] mx-auto bg-white rounded-[30px] h-auto my-10">
             <audio ref={audioRef} controls autoPlay className='w-full h-[30px]'>
               <source src={audio?.couple} type="audio/mpeg" />
             </audio>
           </div>
         </div>
 
-        <div className='bg-[#dfc1b1] flex flex-col gap-3 pb-30 lg:max-w-[940px] mx-auto'>
+        <div className='bg-[#dfc1b1] flex flex-col md:gap-3 gap-5 pb-30 lg:max-w-[940px] mx-auto'>
           <div>
             <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
           </div>
 
-          <div className='flex flex-1 gap-3 md:justify-between md:flex-row flex-col w-full'>
+          <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
             <img src={images.tasveerThumb_6} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
             <img src={images.tasveerThumb_4} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
           </div>

@@ -54,7 +54,7 @@ const Home: React.FC = () => {
               slidesPerView={1}
               loop={true}
               autoplay={{
-                delay: 5000,
+                delay: 500000,
                 disableOnInteraction: true,
               }}
               speed={1000}
@@ -81,16 +81,24 @@ const Home: React.FC = () => {
                   <p className='text-[18px] leading-11 font-light max-w-[753px] text-center'>{slide.description}</p>
                 </SwiperSlide>
               ))}
-              <div className="lg:text-[26px] md:text-[20px] text-[16px] lg:leading-17 leading-12 uppercase relative !flex items-center justify-center h-[50px] !z-99999">
+              <div
+                className="md:text-[18px] text-[16px] lg:leading-17 leading-12 uppercase !flex justify-center mb-20 gap-5"
+              // style={{}}
+              >
+                <span className="swiper-button-prev !z-9 !relative !w-fit !h-[30px] !-mt-[25px] !text-black cursor-pointer flex items-center justify-center hover:italic">Previous</span>
+                <span className='!z-9 !relative !w-fit !h-[30px] !-mt-[25px] !text-black cursor-pointer flex items-center justify-center'>/</span>
+                <span className="swiper-button-next !z-9 !relative !w-fit !h-[30px] !-mt-[25px] !text-black cursor-pointer flex items-center justify-center hover:italic">Next</span>
+              </div>
+              {/* <div className="lg:text-[26px] md:text-[20px] text-[16px] lg:leading-17 leading-12 uppercase relative !flex items-center justify-center h-[50px] !z-99999">
                 <span className="swiper-button-prev text-black !relative !h-[30px] !w-[100px] !-mt-13 !z-99999">Previous</span>
                 <span className='!relative !h-[30px] !w-[100px] text-green !-mt-13 !z-99999'>/</span>
                 <span className="swiper-button-next text-black !relative !h-[30px] !w-[100px] !-mt-13 !z-99999">Next</span>
-              </div>
+              </div> */}
             </Swiper>
           </div>
         </div>
-      </section>
-    </main>
+      </section >
+    </main >
   )
 }
 

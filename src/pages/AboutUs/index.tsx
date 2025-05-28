@@ -35,7 +35,7 @@ const AboutUs: React.FC = () => {
                   <img
                     src={slide}
                     alt="Tasveer"
-                    className='bg-[#D9D9D9] h-[100vh] w-[100vw] object-cover object-center relative grayscale'
+                    className='bg-[#D9D9D9] h-[100vh] w-[100vw] object-cover object-center relative'
                   />
                 </div>
               </SwiperSlide>
