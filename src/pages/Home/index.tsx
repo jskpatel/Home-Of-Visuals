@@ -27,8 +27,8 @@ const Home: React.FC = () => {
           <h3 className='lg:text-[45px] md:text-[35px] text-[30px] lg:leading-22 leading-14 font-light operetta'>When the <span className='block italic'>Guests Leave,</span> Your Story Stays</h3>
 
           <div className="flex justify-center items-center my-10">
-            <div className="h-[100px] w-[100px]">
-              <img src={images.hovSymbol} alt="" className='object-cover object-center rounded-full' />
+            <div className="h-[100px] w-[150px]">
+              <img src={images.logo} alt="" className='object-cover object-center' />
             </div>
           </div>
 
@@ -38,9 +38,7 @@ const Home: React.FC = () => {
       </section>
 
       <section>
-        <div className={`flex mb-24 h-[500px] bg-cover bg-center h-screen w-full bg-fixed`} style={{ backgroundImage: `url(${images.homepageSticky})` }} >
-          {/* <img src={images.tasveerThumb_1} alt="" className='bg-[#D9D9D9] w-full h-[559px] object-cover object-center' /> */}
-        </div>
+        <div className={`flex mb-24 h-[500px] bg-cover bg-center h-screen w-full bg-fixed`} style={{ backgroundImage: `url(${images.homepageSticky})` }} ></div>
       </section>
 
       <section>
