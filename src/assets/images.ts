@@ -17,10 +17,12 @@ import HOV_2 from "./hov_2.svg"
 import HOV_3 from "./hov_3.jpg"
 import HOV_4 from "./hov_4.svg"
 import HOV_5 from "./hov_5.jpg"
+import LOGO from "./hov.png"
 import Couple from "./couple-audio.mp3"
 import HomepageSticky from "./HomepageSticky.jpg"
 
 export const images = {
+  logo: LOGO,
   welcome: Welcome,
   aboutHeader: AboutHeader,
   contactHeader: ContactHeader,
