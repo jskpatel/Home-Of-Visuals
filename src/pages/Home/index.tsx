@@ -22,9 +22,9 @@ const Home: React.FC = () => {
       </section>
 
       <section>
-        <div className="text-center max-w-[580px] mx-auto px-5 py-15 mb-10" >
+        <div className="text-center max-w-[680px] mx-auto px-5 py-15 mb-10" >
           <h2 className='text-[16px] leading-30 mb-6 uppercase tracking-[5px] inter-light'>Our mission</h2>
-          <h3 className='lg:text-[45px] md:text-[35px] text-[30px] lg:leading-22 leading-14 font-light operetta'>To break <span className='block italic'>Stereotypes one</span> frame at a time</h3>
+          <h3 className='lg:text-[45px] md:text-[35px] text-[30px] lg:leading-22 leading-14 font-light operetta'>When the <span className='block italic'>Guests Leave,</span> Your Story Stays</h3>
 
           <div className="flex justify-center items-center my-10">
             <div className="h-[100px] w-[100px]">
@@ -32,8 +32,8 @@ const Home: React.FC = () => {
             </div>
           </div>
 
-          <p className='text-[18px] leading-11 mb-7 font-light'>Others who use this device won't see your activity, so you can browse more privately.</p>
-          <p className='text-[18px] leading-11 font-light'>Collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
+          <p className='text-[18px] leading-11 mb-7 font-light'>Picture this - it's the day after your wedding day. The guests have left, the flowers have dried, and the cake is long gone. The only thing that remains after your special day is your photos. The truth is that it's not every day you get to live through a milestone that shapes the rest of your life. So, amidst all your wedding frenzy to have that one perfect moment, why don't we handle the everlasting memory? You live the moment, and we will capture every minute part of it - down to the last detail, hue, texture, and pixel.</p>
+          <p className='text-[18px] leading-11 font-light'>It's your date; we just help you save it for life.</p>
         </div>
       </section>
 
