@@ -38,7 +38,7 @@ const Home: React.FC = () => {
       </section>
 
       <section>
-        <div className={`flex mb-24 h-[500px] bg-cover bg-center h-screen w-full bg-fixed`} style={{ backgroundImage: `url(${images.tasveerThumb_1})` }} >
+        <div className={`flex mb-24 h-[500px] bg-cover bg-center h-screen w-full bg-fixed`} style={{ backgroundImage: `url(${images.homepageSticky})` }} >
           {/* <img src={images.tasveerThumb_1} alt="" className='bg-[#D9D9D9] w-full h-[559px] object-cover object-center' /> */}
         </div>
       </section>
