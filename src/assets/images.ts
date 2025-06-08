@@ -20,6 +20,10 @@ import HOV_5 from "./hov_5.jpg"
 import LOGO from "./hov.png"
 import Couple from "./couple-audio.mp3"
 import HomepageSticky from "./HomepageSticky.jpg"
+import ClientPraise1 from "./clientPraise/client praise 01.jpg"
+import ClientPraise2 from "./clientPraise/client praise 01 a.jpg"
+import ClientPraise3 from "./clientPraise/Client praise 02.jpg"
+import ClientPraise4 from "./clientPraise/Client praise 02 a.jpg"
 
 export const images = {
   logo: LOGO,
@@ -44,6 +48,11 @@ export const images = {
   HOV_5: HOV_5,
 
   homepageSticky: HomepageSticky,
+
+  clientPraise1: ClientPraise1,
+  clientPraise2: ClientPraise2,
+  clientPraise3: ClientPraise3,
+  clientPraise4: ClientPraise4,
 }
 
 export const audio = {
