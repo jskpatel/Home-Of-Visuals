@@ -41,7 +41,6 @@ const ContactUs: React.FC = () => {
     }, 8000)
   }
 
-
   return (
     <main>
       <section>
