@@ -12,11 +12,9 @@ import Blog_1 from "./blog_1.jpg"
 import Blog_2 from "./blog_2.jpg"
 import Blog_3 from "./blog_3.jpg"
 import HOVSymbol from "./hov-symbol-black.png"
-import HOV_1 from "./hov_1.jpg"
-import HOV_2 from "./hov_2.svg"
-import HOV_3 from "./hov_3.jpg"
-import HOV_4 from "./hov_4.svg"
-import HOV_5 from "./hov_5.jpg"
+import HOV_1 from "./welcome/landing 01.jpg"
+import HOV_2 from "./welcome/landing 02.jpg"
+import HOV_3 from "./welcome/landing 03.jpg"
 import LOGO from "./hov.png"
 import Couple from "./couple-audio.mp3"
 import HomepageSticky from "./HomepageSticky.jpg"
@@ -44,8 +42,6 @@ export const images = {
   HOV_1: HOV_1,
   HOV_2: HOV_2,
   HOV_3: HOV_3,
-  HOV_4: HOV_4,
-  HOV_5: HOV_5,
 
   homepageSticky: HomepageSticky,
 
