@@ -6,11 +6,9 @@ import { Autoplay, EffectFade } from 'swiper/modules';
 
 const Welcome: React.FC = () => {
   const slides = [
-    { id: 1, image: images.HOV_4 },
+    { id: 1, image: images.HOV_1 },
     { id: 2, image: images.HOV_2 },
     { id: 3, image: images.HOV_3 },
-    { id: 3, image: images.HOV_1 },
-    { id: 3, image: images.HOV_5 },
   ];
 
   return (
