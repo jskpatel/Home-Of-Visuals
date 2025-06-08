@@ -1,8 +1,14 @@
-import React from 'react'
-import { images } from '../../assets/images'
-import { blog01Images } from '../Tasveer/constant'
+import React, { useState } from 'react'
+import { blogDetails } from '../Tasveer/constant'
+import { useLocation } from 'react-router-dom'
 
 const BlogDetails: React.FC = () => {
+
+  const location = useLocation();
+  const activeBlog = blogDetails.filter( x => x.key === location.state?.blogKey)
+
+  const [ blog ] = useState(activeBlog[0])
+
   return (
     <main>
       <div className='bg-[#dfc1b1] lg:px-25 px-12 lg:pt-48 pt-24 pb-24'>
@@ -10,21 +16,21 @@ const BlogDetails: React.FC = () => {
           <div className='flex flex-wrap justify-between gap-10 w-full max-w-[820px]'>
 
             <h2 className='xl:text-[50px] lg:text-[40px] md:text-[30px] text-[24px] xl:leading-30 lg:leading-24 md:leading-18 leading-12 text-center w-full mb-10 operetta'>MIRAL & BHARGAV </h2>
-            <p className='text-[18px] leading-11 text-center font-light'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list.</p>
+            <p className='text-[18px] leading-11 text-center font-light' dangerouslySetInnerHTML={{__html: blog.text1}} />
 
             <div className="flex lg:gap-24 gap-14 justify-center items-center my-10 w-full">
               <span className="w-[611px]">
-                <img src={images.blog_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[631px] object-cover object-center' />
+                <img src={blog.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[631px] object-cover object-center' />
               </span>
             </div>
 
-            <p className="text-[18px] leading-13 text-center font-light">Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list.</p>
+            <p className="text-[18px] leading-13 text-center font-light" dangerouslySetInnerHTML={{__html: blog.text2}} />
 
             <div className="flex flex-wrap gap-8 justify-center items-center my-10 w-full">
               {
-                blog01Images.map((blog: string, i: number) => {
+                blog.images.map((blg: string, i: number) => {
                   return <span className="w-[260px]" key={i}>
-                    <img src={blog} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[310px] object-cover object-center' />
+                    <img src={blg} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[310px] object-cover object-center' />
                   </span>
                 })
               }

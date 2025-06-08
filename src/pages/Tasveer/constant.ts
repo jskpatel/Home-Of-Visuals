@@ -233,6 +233,23 @@ export const tasveerImages: TasveerCouple[] = [
   },
 ]
 
-export const aboutImages: string[] = [ about01, about02, about03, about04 ]
+export const aboutImages: string[] = [about01, about02, about03, about04]
 
-export const blog01Images: string[] = [ blog11, blog12, blog13, blog14, blog15, blog16 ]
+export const blog01Images: string[] = [blog11, blog12, blog13, blog14, blog15, blog16]
+
+export const blogDetails = [
+  {
+    key: 1,
+    coverImage: blog16,
+    title: "THE MOST AUTHENTIC GUESTS AT WEDDING",
+    text1: `<p>In a world of choreographed smiles and rehearsed rituals, children bring a kind of honesty that's rare. They dance when they feel like it. Cry when they're tired. Laugh out loud at nothing at all.</p>`,
+    text2: `<p className="text-[18px] leading-13 text-center font-light">They don't care who's the bride or groom.</p>
+            <p className="text-[18px] leading-13 text-center font-light">They're not here for the playlist or the decor.</p>
+            <p className="text-[18px] leading-13 text-center font-light">They're just… here. Fully, freely, honestly.</p>
+            <p className="text-[18px] leading-13 text-center font-light">In the middle of all the grandeur, children remind us what authenticity looks like. No filters. No performance. Just raw, unedited emotion.</p>
+            <p className="text-[18px] leading-13 text-center font-light">As wedding photographers, we live for these unscripted moments—because they're the ones that make each wedding real.</p>`,
+    images: [blog11, blog12, blog13, blog14, blog15, blog16]
+  }
+]
+
+

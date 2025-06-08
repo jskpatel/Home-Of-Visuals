@@ -7,9 +7,8 @@ import { videos } from '../../assets/videos/video';
 const Home: React.FC = () => {
 
   const slides = [
-    { id: 1, image1: images.tasveerThumb_1, image2: images.tasveerThumb_2, title: 'Miral & Bhargav', description: "Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved." },
-    { id: 2, image1: images.tasveerThumb_1, image2: images.tasveerThumb_2, title: 'John & Doe', description: "Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved." },
-    { id: 3, image1: images.tasveerThumb_1, image2: images.tasveerThumb_2, title: 'Lillyo & Vincholy', description: "Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved." },
+    { id: 1, image1: images.clientPraise1, image2: images.clientPraise2, title: 'Miral & Bhargav', description: "Hey! Thank you so much for the service team #HOUSEOFVISUALS You guys delivered way more then i expected. Kudos to your fantastic team work, dedication and your vision. ✨ ❤️" },
+    { id: 2, image1: images.clientPraise3, image2: images.clientPraise4, title: 'John & Doe', description: "We are absolutely thrilled with Meet’s work. He didn’t just take photos; he captured the true essence, atmosphere and vibe of each moment, seamlessly blending with the surroundings. The photos are timeless because instead of following fleeting trends, he focused on what will remain meaningful and relevant over time. He also guided us throughout the process, offering helpful suggestions tailored to the location, timing, and the specific shot we wanted." },
   ];
 
   return (
@@ -74,9 +73,9 @@ const Home: React.FC = () => {
                     </div>
                   </div>
 
-                  <h3 className='lg:text-[30px] text-[24px] lg:leading-17 leading-10 Capitalize mt-14 mb-6 operetta'>{slide.title}</h3>
+                  <h3 className='lg:text-[30px] text-[24px] lg:leading-17 leading-10 Capitalize mt-14 mb-6 operetta hidden'>{slide.title}</h3>
 
-                  <p className='text-[18px] leading-11 font-light max-w-[753px] text-center'>{slide.description}</p>
+                  <p className='text-[18px] leading-11 font-light max-w-[753px] text-center mt-10'>{slide.description}</p>
                 </SwiperSlide>
               ))}
               <div
