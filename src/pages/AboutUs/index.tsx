@@ -34,6 +34,7 @@ const AboutUs: React.FC = () => {
                     src={slide}
                     alt="Tasveer"
                     className='bg-[#D9D9D9] h-[100vh] w-[100vw] object-cover object-center relative'
+                    loading="lazy"
                   />
                 </div>
               </SwiperSlide>

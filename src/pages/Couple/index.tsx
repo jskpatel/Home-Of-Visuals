@@ -25,7 +25,7 @@ const Couple: React.FC = () => {
       <section className="bg-[#dfc1b1]">
         <div className=" h-full min-h-[100vh] lg:px-25 px-12 lg:pt-48 pt-24 pb-24 flex flex-col gap-10">
           <div >
-            <img src={couple?.coverImage} alt="Tasveer" className='bg-[#ededed] lg:max-w-[940px] lg:h-[600px] w-full h-[400px] object-cover object-center mx-auto' />
+            <img src={couple?.coverImage} alt="Tasveer" className='bg-[#ededed] lg:max-w-[940px] lg:h-[600px] w-full h-[400px] object-cover object-center mx-auto' loading="lazy" />
           </div>
 
           <h2 className="lg:text-[40px] text-[30px] lg:leading-16 leading-14 text-center uppercase mt-14 operetta">{couple?.name1} & {couple?.name2}</h2>
@@ -60,15 +60,15 @@ const Couple: React.FC = () => {
               // Full width image
               return (
                 <div key={index}>
-                  <img src={img} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+                  <img src={img} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' loading="lazy" />
                 </div>
               );
             } else if (isStartOfPair && couple?.images[index + 1]) {
               // Paired images (a + b)
               return (
                 <div key={index} className='flex flex-1 gap-5 justify-between w-full'>
-                  <img src={couple?.images[index]} alt="Tasveer" className='bg-[#ededed] w-1/2 h-[100vh] object-cover object-center mx-auto' />
-                  <img src={couple?.images[index + 1]} alt="Tasveer" className='bg-[#ededed] w-1/2 h-[100vh] object-cover object-center mx-auto' />
+                  <img src={couple?.images[index]} alt="Tasveer" className='bg-[#ededed] w-1/2 h-[100vh] object-cover object-center mx-auto' loading="lazy" />
+                  <img src={couple?.images[index + 1]} alt="Tasveer" className='bg-[#ededed] w-1/2 h-[100vh] object-cover object-center mx-auto' loading="lazy" />
                 </div>
               );
             } else if (lastChar === 'b') {

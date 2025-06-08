@@ -35,7 +35,7 @@ const Welcome: React.FC = () => {
             <SwiperSlide key={slide.id}>
               <div className="w-full h-[calc(100vh-10px)] bg-[#dfc1b1] text-center flex md:items-start items-center justify-center flex-col text-white overflow-hidden relative">
                 <div className='w-full h-full absolute bg-black'>
-                  <img src={slide.image} alt="Welcome" className='bg-[#dfc1b1] w-full h-full object-cover object-center absolute opacity-50' />
+                  <img src={slide.image} alt="Welcome" className='bg-[#dfc1b1] w-full h-full object-cover object-center absolute opacity-50' loading="lazy" />
                 </div>
 
                 <div className='z-10 md:w-[500px] w-full px-5 xl:ml-20'>

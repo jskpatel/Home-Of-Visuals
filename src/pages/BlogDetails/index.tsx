@@ -20,7 +20,7 @@ const BlogDetails: React.FC = () => {
 
             <div className="flex lg:gap-24 gap-14 justify-center items-center my-10 w-full">
               <span className="w-[611px]">
-                <img src={blog.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[631px] object-cover object-center' />
+                <img src={blog.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[631px] object-cover object-center' loading="lazy" />
               </span>
             </div>
 
@@ -30,7 +30,7 @@ const BlogDetails: React.FC = () => {
               {
                 blog.images.map((blg: string, i: number) => {
                   return <span className="w-[260px]" key={i}>
-                    <img src={blg} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[310px] object-cover object-center' />
+                    <img src={blg} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[310px] object-cover object-center' loading="lazy" />
                   </span>
                 })
               }

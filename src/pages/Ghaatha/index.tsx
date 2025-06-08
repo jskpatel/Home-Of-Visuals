@@ -53,7 +53,7 @@ const Ghaatha: React.FC = () => {
             <div className="flex flex-wrap md:gap-x-[4%] gap-y-15 w-fit" >
 
               <div className='md:w-[48%] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src="https://img.youtube.com/vi/l2yeP2M1yAM/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/l2yeP2M1yAM/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" loading="lazy" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
                   onClick={() => handlePlayClick('https://youtube.com/embed/l2yeP2M1yAM')}
@@ -63,7 +63,7 @@ const Ghaatha: React.FC = () => {
               </div>
 
               <div className='md:w-[48%] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src="https://img.youtube.com/vi/N5rBCoFOYvc/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/N5rBCoFOYvc/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" loading="lazy" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
                   onClick={() => handlePlayClick('https://youtube.com/embed/N5rBCoFOYvc')}
@@ -73,7 +73,7 @@ const Ghaatha: React.FC = () => {
               </div>
 
               <div className='md:w-[48%] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src="https://img.youtube.com/vi/G13mr8XgDGE/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/G13mr8XgDGE/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" loading="lazy" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
                   onClick={() => handlePlayClick('https://youtube.com/embed/G13mr8XgDGE')}
@@ -83,7 +83,7 @@ const Ghaatha: React.FC = () => {
               </div>
 
               <div className='md:w-[48%] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src="https://img.youtube.com/vi/U0Mn2YN1L2M/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/U0Mn2YN1L2M/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" loading="lazy" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
                   onClick={() => handlePlayClick('https://youtube.com/embed/U0Mn2YN1L2M')}
@@ -93,7 +93,7 @@ const Ghaatha: React.FC = () => {
               </div>
 
               <div className='md:w-[48%] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src="https://img.youtube.com/vi/9I6mNNFP5rU/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/9I6mNNFP5rU/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" loading="lazy" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
                   onClick={() => handlePlayClick('https://youtube.com/embed/9I6mNNFP5rU')}
@@ -103,7 +103,7 @@ const Ghaatha: React.FC = () => {
               </div>
 
               <div className='md:w-[48%] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src="https://img.youtube.com/vi/6OvbfNdouno/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/6OvbfNdouno/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" loading="lazy" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
                   onClick={() => handlePlayClick('https://youtube.com/embed/6OvbfNdouno')}
@@ -113,7 +113,7 @@ const Ghaatha: React.FC = () => {
               </div>
 
               <div className='md:w-[48%] w-full flex flex-col xl:gap-5 gap-5 relative'>
-                <img src="https://img.youtube.com/vi/fXyjH5js-no/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" />
+                <img src="https://img.youtube.com/vi/fXyjH5js-no/maxresdefault.jpg" alt='Gaathas' className="w-full md:h-[308px] h-[250px] object-cover object-center" loading="lazy" />
                 <span
                   className='absolute h-full w-full flex justify-center items-center text-[50px] text-white cursor-pointer'
                   onClick={() => handlePlayClick('https://www.youtube.com/embed/fXyjH5js-no')}

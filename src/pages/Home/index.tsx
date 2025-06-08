@@ -27,7 +27,7 @@ const Home: React.FC = () => {
 
           <div className="flex justify-center items-center my-10">
             <div className="h-[100px] w-[150px]">
-              <img src={images.logo} alt="" className='object-cover object-center' />
+              <img src={images.logo} alt="" className='object-cover object-center' loading="lazy" />
             </div>
           </div>
 
@@ -66,10 +66,10 @@ const Home: React.FC = () => {
 
                   <div className="flex gap-4 flex-row justify-center">
                     <div className="bg-[#d9d9d9] w-[200px]">
-                      <img src={slide.image1} alt="" className='bg-[#D9D9D9] w-full sm:h-[300px] h-[200px] object-cover object-center' />
+                      <img src={slide.image1} alt="" className='bg-[#D9D9D9] w-full sm:h-[300px] h-[200px] object-cover object-center' loading="lazy" />
                     </div>
                     <div className="bg-[#d9d9d9] w-[200px]">
-                      <img src={slide.image2} alt="" className='bg-[#D9D9D9] w-full sm:h-[300px] h-[200px] object-cover object-center' />
+                      <img src={slide.image2} alt="" className='bg-[#D9D9D9] w-full sm:h-[300px] h-[200px] object-cover object-center' loading="lazy" />
                     </div>
                   </div>
 
@@ -78,10 +78,7 @@ const Home: React.FC = () => {
                   <p className='text-[18px] leading-11 font-light max-w-[753px] text-center mt-10'>{slide.description}</p>
                 </SwiperSlide>
               ))}
-              <div
-                className="md:text-[18px] text-[16px] lg:leading-17 leading-12 uppercase !flex justify-center mb-20 gap-5"
-              // style={{}}
-              >
+              <div className="md:text-[18px] text-[16px] lg:leading-17 leading-12 uppercase !flex justify-center mb-20 gap-5" >
                 <span className="swiper-button-prev !z-9 !relative !w-fit !h-[30px] !-mt-[25px] !text-black cursor-pointer flex items-center justify-center hover:italic">Previous</span>
                 <span className='!z-9 !relative !w-fit !h-[30px] !-mt-[25px] !text-black cursor-pointer flex items-center justify-center'>/</span>
                 <span className="swiper-button-next !z-9 !relative !w-fit !h-[30px] !-mt-[25px] !text-black cursor-pointer flex items-center justify-center hover:italic">Next</span>
