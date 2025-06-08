@@ -1,12 +1,10 @@
 import React from 'react'
-import { images } from '../../assets/images'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, EffectFade } from 'swiper/modules'
+import { aboutImages } from '../Tasveer/constant'
 
 const AboutUs: React.FC = () => {
-
-  const slides = [images.tasveerThumb_1, images.tasveerThumb_2, images.tasveerThumb_3];
 
   return (
     <main className='flex lg:flex-row flex-col w-full h-full relative'>
@@ -29,7 +27,7 @@ const AboutUs: React.FC = () => {
             speed={1000}
             className="w-full"
           >
-            {slides.map((slide: string, i: number) => (
+            {aboutImages.map((slide: string, i: number) => (
               <SwiperSlide key={i}>
                 <div className="relative">
                   <img

@@ -1,5 +1,6 @@
 import React from 'react'
 import { images } from '../../assets/images'
+import { blog01Images } from '../Tasveer/constant'
 
 const BlogDetails: React.FC = () => {
   return (
@@ -20,15 +21,13 @@ const BlogDetails: React.FC = () => {
             <p className="text-[18px] leading-13 text-center font-light">Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list. Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list.</p>
 
             <div className="flex flex-wrap gap-8 justify-center items-center my-10 w-full">
-              <span className="w-[260px]">
-                <img src={images.blog_1} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[310px] object-cover object-center' />
-              </span>
-              <span className="w-[260px]">
-                <img src={images.blog_2} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[310px] object-cover object-center' />
-              </span>
-              <span className="w-[260px]">
-                <img src={images.blog_3} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[310px] object-cover object-center' />
-              </span>
+              {
+                blog01Images.map((blog: string, i: number) => {
+                  return <span className="w-[260px]" key={i}>
+                    <img src={blog} alt="Tasveer" className='bg-[#D9D9D9] w-full h-[310px] object-cover object-center' />
+                  </span>
+                })
+              }
             </div>
 
           </div>
