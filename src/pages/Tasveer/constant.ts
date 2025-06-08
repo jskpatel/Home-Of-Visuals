@@ -378,6 +378,6 @@ export const blogDetails = [
             <p className="text-[18px] leading-13 text-center font-light">They're just… here. Fully, freely, honestly.</p>
             <p className="text-[18px] leading-13 text-center font-light">In the middle of all the grandeur, children remind us what authenticity looks like. No filters. No performance. Just raw, unedited emotion.</p>
             <p className="text-[18px] leading-13 text-center font-light">As wedding photographers, we live for these unscripted moments—because they're the ones that make each wedding real.</p>`,
-    images: [blog11, blog12, blog13, blog14, blog15, blog16]
+    images: [blog11, blog12, blog13, blog14, blog15]
   }
 ]
