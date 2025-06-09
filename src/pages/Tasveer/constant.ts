@@ -320,13 +320,6 @@ export interface TasveerCouple {
 
 export const tasveerImages: TasveerCouple[] = [
   {
-    key: "akhil_athira",
-    name1: "akhil",
-    name2: "athira",
-    coverImage: akhil_athira_img1a,
-    images: [akhil_athira_img1a, akhil_athira_img1b, akhil_athira_img2, akhil_athira_img3, akhil_athira_img4, akhil_athira_img5, akhil_athira_img6, akhil_athira_img7, akhil_athira_img8, akhil_athira_img9a, akhil_athira_img9b, akhil_athira_img10, akhil_athira_img11, akhil_athira_img12, akhil_athira_img13, akhil_athira_img14a, akhil_athira_img14b, akhil_athira_img15, akhil_athira_img16, akhil_athira_img17, akhil_athira_img18a, akhil_athira_img18b, akhil_athira_img19a, akhil_athira_img19b, akhil_athira_img20]
-  },
-  {
     key: "hetal_neel",
     name1: "hetal",
     name2: "neel",
@@ -334,18 +327,18 @@ export const tasveerImages: TasveerCouple[] = [
     images: [hetal_neel_img1, hetal_neel_img2, hetal_neel_img3a, hetal_neel_img3b, hetal_neel_img4, hetal_neel_img5, hetal_neel_img6, hetal_neel_img7a, hetal_neel_img7b, hetal_neel_img8, hetal_neel_img9, hetal_neel_img11, hetal_neel_img12, hetal_neel_img14, hetal_neel_img15, hetal_neel_img16, hetal_neel_img17a, hetal_neel_img17b, hetal_neel_img18, hetal_neel_img19, hetal_neel_img20, hetal_neel_img21, hetal_neel_img23, hetal_neel_img24a, hetal_neel_img24b, hetal_neel_img25, hetal_neel_img26, hetal_neel_img27a, hetal_neel_img27b, hetal_neel_img28, hetal_neel_img29, hetal_neel_img30, hetal_neel_img31, hetal_neel_img32, hetal_neel_img33a, hetal_neel_img33b, hetal_neel_img34, hetal_neel_img35, hetal_neel_img36, hetal_neel_img37, hetal_neel_img38, hetal_neel_img39, hetal_neel_img40, hetal_neel_img41, hetal_neel_img42, hetal_neel_img43, hetal_neel_img44, hetal_neel_img45, hetal_neel_img46, hetal_neel_img47a, hetal_neel_img47b, hetal_neel_img48, hetal_neel_img49, hetal_neel_img50, hetal_neel_img51, hetal_neel_img52, hetal_neel_img53a, hetal_neel_img53b, hetal_neel_img54a, hetal_neel_img54b, hetal_neel_img55, hetal_neel_img56, hetal_neel_img57a, hetal_neel_img57b, hetal_neel_img58, hetal_neel_img59, hetal_neel_img60, hetal_neel_img61, hetal_neel_img62a, hetal_neel_img62b, hetal_neel_img63, hetal_neel_img64, hetal_neel_img65a, hetal_neel_img65b, hetal_neel_img66, hetal_neel_img69, hetal_neel_img70, hetal_neel_img71, hetal_neel_img72, hetal_neel_img73, hetal_neel_img75, hetal_neel_img76, hetal_neel_img77, hetal_neel_img78, hetal_neel_img79, hetal_neel_img80a, hetal_neel_img80b, hetal_neel_img81]
   },
   {
+    key: "akhil_athira",
+    name1: "akhil",
+    name2: "athira",
+    coverImage: akhil_athira_img1a,
+    images: [akhil_athira_img1a, akhil_athira_img1b, akhil_athira_img2, akhil_athira_img3, akhil_athira_img4, akhil_athira_img5, akhil_athira_img6, akhil_athira_img7, akhil_athira_img8, akhil_athira_img9a, akhil_athira_img9b, akhil_athira_img10, akhil_athira_img11, akhil_athira_img12, akhil_athira_img13, akhil_athira_img14a, akhil_athira_img14b, akhil_athira_img15, akhil_athira_img16, akhil_athira_img17, akhil_athira_img18a, akhil_athira_img18b, akhil_athira_img19a, akhil_athira_img19b, akhil_athira_img20]
+  },
+  {
     key: "parth_zeel",
     name1: "parth",
     name2: "zeel",
     coverImage: parth_zeel_img1,
     images: [parth_zeel_img1, parth_zeel_img2, parth_zeel_img3a, parth_zeel_img3b, parth_zeel_img4, parth_zeel_img5, parth_zeel_img6, parth_zeel_img7a, parth_zeel_img7b, parth_zeel_img8, parth_zeel_img9, parth_zeel_img10, parth_zeel_img11, parth_zeel_img12, parth_zeel_img13, parth_zeel_img14a, parth_zeel_img14b, parth_zeel_img15, parth_zeel_img16, parth_zeel_img17a, parth_zeel_img17b, parth_zeel_img18, parth_zeel_img19, parth_zeel_img20, parth_zeel_img21, parth_zeel_img22, parth_zeel_img24, parth_zeel_img25, parth_zeel_img26a, parth_zeel_img26b, parth_zeel_img27, parth_zeel_img28, parth_zeel_img28a, parth_zeel_img28b, parth_zeel_img29a, parth_zeel_img29b, parth_zeel_img30, parth_zeel_img30a, parth_zeel_img30b, parth_zeel_img31, parth_zeel_img33, parth_zeel_img34, parth_zeel_img35, parth_zeel_img36, parth_zeel_img37, parth_zeel_img38, parth_zeel_img39, parth_zeel_img40, parth_zeel_img41, parth_zeel_img42, parth_zeel_img43, parth_zeel_img44, parth_zeel_img45, parth_zeel_img46, parth_zeel_img47, parth_zeel_img48, parth_zeel_img49, parth_zeel_img50, parth_zeel_img51, parth_zeel_img52, parth_zeel_img53, parth_zeel_img54, parth_zeel_img55, parth_zeel_img56a, parth_zeel_img56b, parth_zeel_img57, parth_zeel_img58, parth_zeel_img59, parth_zeel_img60, parth_zeel_img61a, parth_zeel_img61b]
-  },
-  {
-    key: "anjali_savan",
-    name1: "anjali",
-    name2: "savan",
-    coverImage: anjali_savan_img1,
-    images: [anjali_savan_img1, anjali_savan_img2, anjali_savan_img3, anjali_savan_img4, anjali_savan_img5, anjali_savan_img6a, anjali_savan_img6b, anjali_savan_img7, anjali_savan_img8, anjali_savan_img9, anjali_savan_img10a, anjali_savan_img10b, anjali_savan_img11, anjali_savan_img12, anjali_savan_img13, anjali_savan_img14, anjali_savan_img15, anjali_savan_img16, anjali_savan_img17, anjali_savan_img18, anjali_savan_img19, anjali_savan_img20, anjali_savan_img21, anjali_savan_img22a, anjali_savan_img22b, anjali_savan_img23a, anjali_savan_img23b, anjali_savan_img24, anjali_savan_img25, anjali_savan_img26, anjali_savan_img27a, anjali_savan_img27b, anjali_savan_img28, anjali_savan_img29, anjali_savan_img30]
   },
   {
     key: "miral_bhargav",
@@ -360,6 +353,13 @@ export const tasveerImages: TasveerCouple[] = [
     name2: "varun",
     coverImage: tejal_varun_img1,
     images: [tejal_varun_img1, tejal_varun_img2, tejal_varun_img3a, tejal_varun_img3b, tejal_varun_img4, tejal_varun_img5, tejal_varun_img6, tejal_varun_img7a, tejal_varun_img7b, tejal_varun_img8, tejal_varun_img9a, tejal_varun_img9b, tejal_varun_img10a, tejal_varun_img10b, tejal_varun_img11a, tejal_varun_img11b, tejal_varun_img12a, tejal_varun_img12b, tejal_varun_img13a, tejal_varun_img13b, tejal_varun_img14, tejal_varun_img15, tejal_varun_img16a, tejal_varun_img16b, tejal_varun_img17, tejal_varun_img18, tejal_varun_img19, tejal_varun_img20, tejal_varun_img23, tejal_varun_img24a, tejal_varun_img24b, tejal_varun_img25, tejal_varun_img26, tejal_varun_img27, tejal_varun_img28]
+  },
+  {
+    key: "anjali_savan",
+    name1: "anjali",
+    name2: "savan",
+    coverImage: anjali_savan_img1,
+    images: [anjali_savan_img1, anjali_savan_img2, anjali_savan_img3, anjali_savan_img4, anjali_savan_img5, anjali_savan_img6a, anjali_savan_img6b, anjali_savan_img7, anjali_savan_img8, anjali_savan_img9, anjali_savan_img10a, anjali_savan_img10b, anjali_savan_img11, anjali_savan_img12, anjali_savan_img13, anjali_savan_img14, anjali_savan_img15, anjali_savan_img16, anjali_savan_img17, anjali_savan_img18, anjali_savan_img19, anjali_savan_img20, anjali_savan_img21, anjali_savan_img22a, anjali_savan_img22b, anjali_savan_img23a, anjali_savan_img23b, anjali_savan_img24, anjali_savan_img25, anjali_savan_img26, anjali_savan_img27a, anjali_savan_img27b, anjali_savan_img28, anjali_savan_img29, anjali_savan_img30]
   },
 ]
 
