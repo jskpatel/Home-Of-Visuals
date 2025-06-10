@@ -184,6 +184,12 @@ import parth_zeel_img59 from "./../../assets/tasveer/parth_zeel/59.jpg"
 import parth_zeel_img60 from "./../../assets/tasveer/parth_zeel/60.jpg"
 import parth_zeel_img61a from "./../../assets/tasveer/parth_zeel/61 a.jpg"
 import parth_zeel_img61b from "./../../assets/tasveer/parth_zeel/61 b.jpg"
+import parth_zeel_img62 from "./../../assets/tasveer/parth_zeel/_DSC0083.jpg"
+import parth_zeel_img63 from "./../../assets/tasveer/parth_zeel/_DSC0087.jpg"
+import parth_zeel_img64 from "./../../assets/tasveer/parth_zeel/_DSC0090.jpg"
+import parth_zeel_img65a from "./../../assets/tasveer/parth_zeel/_DSC0092 a.jpg"
+import parth_zeel_img65b from "./../../assets/tasveer/parth_zeel/_DSC0094 b.jpg"
+import parth_zeel_img66 from "./../../assets/tasveer/parth_zeel/_DSC0095.jpg"
 
 import anjali_savan_img1 from "./../../assets/tasveer/anjali_savan/1.jpg"
 import anjali_savan_img2 from "./../../assets/tasveer/anjali_savan/2.jpg"
@@ -338,7 +344,7 @@ export const tasveerImages: TasveerCouple[] = [
     name1: "parth",
     name2: "zeel",
     coverImage: parth_zeel_img1,
-    images: [parth_zeel_img1, parth_zeel_img2, parth_zeel_img3a, parth_zeel_img3b, parth_zeel_img4, parth_zeel_img5, parth_zeel_img6, parth_zeel_img7a, parth_zeel_img7b, parth_zeel_img8, parth_zeel_img9, parth_zeel_img10, parth_zeel_img11, parth_zeel_img12, parth_zeel_img13, parth_zeel_img14a, parth_zeel_img14b, parth_zeel_img15, parth_zeel_img16, parth_zeel_img17a, parth_zeel_img17b, parth_zeel_img18, parth_zeel_img19, parth_zeel_img20, parth_zeel_img21, parth_zeel_img22, parth_zeel_img24, parth_zeel_img25, parth_zeel_img26a, parth_zeel_img26b, parth_zeel_img27, parth_zeel_img28, parth_zeel_img28a, parth_zeel_img28b, parth_zeel_img29a, parth_zeel_img29b, parth_zeel_img30, parth_zeel_img30a, parth_zeel_img30b, parth_zeel_img31, parth_zeel_img33, parth_zeel_img34, parth_zeel_img35, parth_zeel_img36, parth_zeel_img37, parth_zeel_img38, parth_zeel_img39, parth_zeel_img40, parth_zeel_img41, parth_zeel_img42, parth_zeel_img43, parth_zeel_img44, parth_zeel_img45, parth_zeel_img46, parth_zeel_img47, parth_zeel_img48, parth_zeel_img49, parth_zeel_img50, parth_zeel_img51, parth_zeel_img52, parth_zeel_img53, parth_zeel_img54, parth_zeel_img55, parth_zeel_img56a, parth_zeel_img56b, parth_zeel_img57, parth_zeel_img58, parth_zeel_img59, parth_zeel_img60, parth_zeel_img61a, parth_zeel_img61b]
+    images: [parth_zeel_img1, parth_zeel_img2, parth_zeel_img3a, parth_zeel_img3b, parth_zeel_img4, parth_zeel_img5, parth_zeel_img6, parth_zeel_img7a, parth_zeel_img7b, parth_zeel_img8, parth_zeel_img9, parth_zeel_img10, parth_zeel_img11, parth_zeel_img12, parth_zeel_img13, parth_zeel_img14a, parth_zeel_img14b, parth_zeel_img15, parth_zeel_img16, parth_zeel_img17a, parth_zeel_img17b, parth_zeel_img18, parth_zeel_img19, parth_zeel_img20, parth_zeel_img21, parth_zeel_img22, parth_zeel_img24, parth_zeel_img25, parth_zeel_img26a, parth_zeel_img26b, parth_zeel_img27, parth_zeel_img28, parth_zeel_img28a, parth_zeel_img28b, parth_zeel_img29a, parth_zeel_img29b, parth_zeel_img30, parth_zeel_img30a, parth_zeel_img30b, parth_zeel_img31, parth_zeel_img33, parth_zeel_img34, parth_zeel_img35, parth_zeel_img36, parth_zeel_img37, parth_zeel_img38, parth_zeel_img39, parth_zeel_img40, parth_zeel_img41, parth_zeel_img42, parth_zeel_img43, parth_zeel_img44, parth_zeel_img45, parth_zeel_img46, parth_zeel_img47, parth_zeel_img48, parth_zeel_img49, parth_zeel_img50, parth_zeel_img51, parth_zeel_img52, parth_zeel_img53, parth_zeel_img54, parth_zeel_img55, parth_zeel_img56a, parth_zeel_img56b, parth_zeel_img57, parth_zeel_img58, parth_zeel_img59, parth_zeel_img60, parth_zeel_img61a, parth_zeel_img61b, parth_zeel_img62, parth_zeel_img63, parth_zeel_img64, parth_zeel_img65a, parth_zeel_img65b, parth_zeel_img66]
   },
   {
     key: "miral_bhargav",
