@@ -40,7 +40,7 @@ const Ghaatha: React.FC = () => {
         <div className="w-full h-[85vh] min-h-[400px] bg-[#D9D9D9] text-center flex items-center justify-center flex-col text-white relative overflow-hidden">
           <video src={videos.gaathaHeaderVideo} autoPlay muted loop className='h-full w-full object-cover object-center absolute'></video>
           {/* <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1 operetta'>Gaatha</h1> */}
-          <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1 relative operetta'>Gaatha</h1>
+          {/* <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1 relative operetta'>Gaatha</h1> */}
         </div>
       </section>
 
