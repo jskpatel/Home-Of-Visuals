@@ -40,12 +40,74 @@ const Couple: React.FC = () => {
 
         {/* <div className='bg-[#dfc1b1] flex flex-col md:gap-3 gap-5 pb-30 lg:max-w-[940px] mx-auto'>
           <div>
-            <img src={images.tasveerThumb_1} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+            <img src={tasveerImages[2]?.images[1]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
           </div>
-
           <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-            <img src={images.tasveerThumb_6} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
-            <img src={images.tasveerThumb_4} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+            <img src={tasveerImages[2]?.images[2]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+            <img src={tasveerImages[2]?.images[3]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[4]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[5]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[6]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
+            <img src={tasveerImages[2]?.images[7]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+            <img src={tasveerImages[2]?.images[8]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[9]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>          
+          <div>
+            <img src={tasveerImages[2]?.images[10]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[11]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[12]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[13]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[14]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
+            <img src={tasveerImages[2]?.images[15]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+            <img src={tasveerImages[2]?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[17]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[18]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
+            <img src={tasveerImages[2]?.images[19]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+            <img src={tasveerImages[2]?.images[20]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[21]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[22]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[23]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[24]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[25]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
+          </div>
+          <div>
+            <img src={tasveerImages[2]?.images[26]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
           </div>
         </div> */}
 
