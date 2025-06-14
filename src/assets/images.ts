@@ -13,8 +13,11 @@ import Blog_2 from "./blog_2.jpg"
 import Blog_3 from "./blog_3.jpg"
 import HOVSymbol from "./hov-symbol-black.png"
 import HOV_1 from "./welcome/landing 01.jpg"
+import HOV_1_THUMB from "./welcome/landing_mobile_01.jpg"
 import HOV_2 from "./welcome/landing 02.jpg"
+import HOV_2_THUMB from "./welcome/landing_mobile_02.jpg"
 import HOV_3 from "./welcome/landing 03.jpg"
+import HOV_3_THUMB from "./welcome/landing_mobile_03.jpg"
 import LOGO from "./hov.png"
 import Couple from "./couple-audio.mp3"
 import HomepageSticky from "./HomepageSticky.jpg"
@@ -40,8 +43,11 @@ export const images = {
   blog_3: Blog_3,
   hovSymbol: HOVSymbol,
   HOV_1: HOV_1,
+  HOV_1_THUMB: HOV_1_THUMB,
   HOV_2: HOV_2,
+  HOV_2_THUMB: HOV_2_THUMB,
   HOV_3: HOV_3,
+  HOV_3_THUMB: HOV_3_THUMB,
 
   homepageSticky: HomepageSticky,
 
