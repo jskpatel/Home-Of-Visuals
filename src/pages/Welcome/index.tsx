@@ -6,9 +6,9 @@ import { Autoplay, EffectFade } from 'swiper/modules';
 
 const Welcome: React.FC = () => {
   const slides = [
-    { id: 1, image: images.HOV_1 },
-    { id: 2, image: images.HOV_2 },
-    { id: 3, image: images.HOV_3 },
+    { id: 1, image: images.HOV_1, mobile: images.HOV_1_THUMB },
+    { id: 2, image: images.HOV_2, mobile: images.HOV_2_THUMB },
+    { id: 3, image: images.HOV_3, mobile: images.HOV_3_THUMB },
   ];
 
   return (
@@ -35,7 +35,8 @@ const Welcome: React.FC = () => {
             <SwiperSlide key={slide.id}>
               <div className="w-full h-[calc(100vh-10px)] bg-[#dfc1b1] text-center flex md:items-start items-center justify-center flex-col text-white overflow-hidden relative">
                 <div className='w-full h-full absolute bg-black'>
-                  <img src={slide.image} alt="Welcome" className='bg-[#dfc1b1] w-full h-full object-cover object-center absolute opacity-50' loading="lazy" />
+                  <img src={slide.image} alt="Welcome" className='md:block hidden bg-[#dfc1b1] w-full h-full object-cover object-center absolute opacity-50' loading="lazy" />
+                  <img src={slide.mobile} alt="Welcome" className='md:hidden bg-[#dfc1b1] w-full h-full object-cover object-center absolute opacity-50' loading="lazy" />
                 </div>
 
                 <div className='z-10 md:w-[500px] w-full px-5 xl:ml-20'>
