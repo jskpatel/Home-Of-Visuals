@@ -56,7 +56,7 @@ const AboutUs: React.FC = () => {
 
       <main className='flex lg:flex-row flex-col w-full h-full relative'>
         <section className='relative lg:w-[50%] w-[100%]'>
-          <div className="w-full lg:h-[100vh] h-[90vh] min-h-[400px] bg-[#000] text-center flex items-center justify-center flex-col relative overflow-hidden relative">
+          <div className="w-full lg:h-[100vh] h-[80vh] md:min-h-[400px] min-h-[300px] bg-[#000] text-center flex items-center justify-center flex-col relative overflow-hidden relative">
             <Swiper
               direction="vertical"
               modules={[Autoplay, EffectFade]}

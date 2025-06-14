@@ -57,7 +57,7 @@ const AkhilAthira: React.FC = () => {
         <section className="bg-[#dfc1b1]">
           <div className=" h-full lg:px-25 px-8 lg:pt-48 md:pt-36 pt-24 pb-24 flex flex-col gap-10">
             <div >
-              <img src={akhilAthira?.coverImage} alt="Tasveer" className='bg-[#ededed] lg:max-w-[1240px] lg:h-[700px] w-full h-[400px] object-cover object-center mx-auto' loading="lazy" />
+              <img src={akhilAthira?.coverImage} alt="Tasveer" className='bg-[#ededed] lg:max-w-[1240px] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
 
             <h2 className="lg:text-[40px] text-[22px] lg:leading-16 leading-14 text-center uppercase mt-14 operetta">{akhilAthira?.name1} & {akhilAthira?.name2}</h2>
@@ -72,8 +72,8 @@ const AkhilAthira: React.FC = () => {
 
           <div className='bg-[#dfc1b1] flex flex-col md:gap-3 gap-5 pb-30 lg:max-w-[1240px] mx-auto px-8'>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={akhilAthira?.images[0]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
-              <img src={akhilAthira?.images[1]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+              <img src={akhilAthira?.images[0]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={akhilAthira?.images[1]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={akhilAthira?.images[2]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
@@ -97,8 +97,8 @@ const AkhilAthira: React.FC = () => {
               <img src={akhilAthira?.images[8]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={akhilAthira?.images[9]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={akhilAthira?.images[10]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={akhilAthira?.images[9]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={akhilAthira?.images[10]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={akhilAthira?.images[11]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
@@ -113,8 +113,8 @@ const AkhilAthira: React.FC = () => {
               <img src={akhilAthira?.images[14]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={akhilAthira?.images[15]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={akhilAthira?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={akhilAthira?.images[15]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={akhilAthira?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={akhilAthira?.images[17]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
@@ -126,12 +126,12 @@ const AkhilAthira: React.FC = () => {
               <img src={akhilAthira?.images[19]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={akhilAthira?.images[20]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={akhilAthira?.images[21]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={akhilAthira?.images[20]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={akhilAthira?.images[21]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={akhilAthira?.images[22]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={akhilAthira?.images[23]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={akhilAthira?.images[22]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={akhilAthira?.images[23]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={akhilAthira?.images[24]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />

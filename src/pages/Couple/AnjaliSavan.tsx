@@ -57,7 +57,7 @@ const AnjaliSavan: React.FC = () => {
         <section className="bg-[#dfc1b1]">
           <div className=" h-full lg:px-25 px-8 lg:pt-48 md:pt-36 pt-24 pb-24 flex flex-col gap-10">
             <div >
-              <img src={anjaliSavan?.coverImage} alt="Tasveer" className='bg-[#ededed] lg:max-w-[1240px] w-full lg:h-[700px] h-[400px] object-cover object-center mx-auto' loading="lazy" />
+              <img src={anjaliSavan?.coverImage} alt="Tasveer" className='bg-[#ededed] lg:max-w-[1240px] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
 
             <h2 className="lg:text-[40px] text-[22px] lg:leading-16 leading-14 text-center uppercase mt-14 operetta">{anjaliSavan?.name1} & {anjaliSavan?.name2}</h2>
@@ -87,8 +87,8 @@ const AnjaliSavan: React.FC = () => {
               <img src={anjaliSavan?.images[4]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={anjaliSavan?.images[5]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
-              <img src={anjaliSavan?.images[6]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+              <img src={anjaliSavan?.images[5]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={anjaliSavan?.images[6]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={anjaliSavan?.images[7]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
@@ -100,8 +100,8 @@ const AnjaliSavan: React.FC = () => {
               <img src={anjaliSavan?.images[9]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={anjaliSavan?.images[10]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
-              <img src={anjaliSavan?.images[11]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+              <img src={anjaliSavan?.images[10]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={anjaliSavan?.images[11]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={anjaliSavan?.images[12]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
@@ -137,12 +137,12 @@ const AnjaliSavan: React.FC = () => {
               <img src={anjaliSavan?.images[22]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={anjaliSavan?.images[23]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
-              <img src={anjaliSavan?.images[24]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+              <img src={anjaliSavan?.images[23]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={anjaliSavan?.images[24]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={anjaliSavan?.images[25]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
-              <img src={anjaliSavan?.images[26]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+              <img src={anjaliSavan?.images[25]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={anjaliSavan?.images[26]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={anjaliSavan?.images[27]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
@@ -154,12 +154,14 @@ const AnjaliSavan: React.FC = () => {
               <img src={anjaliSavan?.images[29]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={anjaliSavan?.images[30]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
-              <img src={anjaliSavan?.images[31]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+              <img src={anjaliSavan?.images[30]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={anjaliSavan?.images[31]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
             </div>
-            <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={anjaliSavan?.images[32]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
-              <img src={anjaliSavan?.images[33]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-[100vh] object-cover object-center mx-auto' />
+            <div>
+              <img src={anjaliSavan?.images[32]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            </div>
+            <div>
+              <img src={anjaliSavan?.images[33]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={anjaliSavan?.images[34]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
