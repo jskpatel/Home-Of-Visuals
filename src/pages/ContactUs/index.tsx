@@ -106,7 +106,7 @@ const ContactUs: React.FC = () => {
                 <p className='mb-3 text-[18px] leading-12 lg:mb-10 mb-0 text-center font-light'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved</p>
 
                 <div className="flex lg:gap-24 gap-14 justify-center items-center mb-20 w-full">
-                  <a href='' target='_blank' className="border-1 rounded-md uppercase px-10 py-5 flex items-center text-[16px] justify-center gap-4 cursor-pointer" title='Whatsapp'>
+                  <a href='https://wa.me/7698608009?text=Welcome%20to%20Home%20Of%20Visuals' target='_blank' className="border-1 rounded-md uppercase px-10 py-5 flex items-center text-[16px] justify-center gap-4 cursor-pointer" title='Whatsapp'>
                     <FaWhatsapp className='h-[20px] w-[20px] text-black' /> Let's connect
                   </a>
                 </div>
