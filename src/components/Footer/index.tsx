@@ -16,8 +16,8 @@ const Footer: React.FC = () => {
             </p>
 
             <div className="flex lg:gap-y-24 gap-14 justify-center items-center my-7">
-              <a href='' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Whatsapp'><FaWhatsapp  /></a>
-              <a href='' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Youtube'><FiYoutube  /></a>
+              <a href='https://wa.me/7698608009?text=Welcome%20to%20Home%20Of%20Visuals' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Whatsapp'><FaWhatsapp  /></a>
+              <a href='https://youtube.com/@homeofvisuals?si=hnkPKwTDL-SZ1fcq' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Youtube'><FiYoutube  /></a>
               <a href='https://www.instagram.com/thehomeofvisuals?utm_source=qr&igsh=MTZjam02eGo1ZjFxYQ==' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Instagram'><FaInstagram /></a>
             </div>
 

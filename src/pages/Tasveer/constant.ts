@@ -248,6 +248,7 @@ import miral_bhargav_img11 from "./../../assets/tasveer/miral_bhargav/11.jpg"
 import miral_bhargav_img12 from "./../../assets/tasveer/miral_bhargav/12.jpg"
 import miral_bhargav_img13a from "./../../assets/tasveer/miral_bhargav/13a.jpg"
 import miral_bhargav_img13b from "./../../assets/tasveer/miral_bhargav/13b.jpg"
+
 import miral_bhargav_img14 from "./../../assets/tasveer/miral_bhargav/14.jpg"
 import miral_bhargav_img15 from "./../../assets/tasveer/miral_bhargav/15.jpg"
 import miral_bhargav_img16 from "./../../assets/tasveer/miral_bhargav/16.jpg"
