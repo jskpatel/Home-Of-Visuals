@@ -81,26 +81,26 @@ const MiralBhargav: React.FC = () => {
               <img src={miralBhargav?.images[2]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[3]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[4]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[3]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[4]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={miralBhargav?.images[5]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[6]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[7]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[6]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[7]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={miralBhargav?.images[8]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[9]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[10]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[9]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[10]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[11]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[12]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[11]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[12]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={miralBhargav?.images[13]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
@@ -109,8 +109,8 @@ const MiralBhargav: React.FC = () => {
               <img src={miralBhargav?.images[14]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[15]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[15]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={miralBhargav?.images[17]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
@@ -119,8 +119,8 @@ const MiralBhargav: React.FC = () => {
               <img src={miralBhargav?.images[18]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[19]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[20]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full md:h-[100vh] h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[19]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[20]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
             </div>
           </div>
 
