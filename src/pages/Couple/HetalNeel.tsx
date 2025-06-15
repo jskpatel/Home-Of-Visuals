@@ -72,6 +72,9 @@ const HetalNeel: React.FC = () => {
 
           <div className='bg-[#dfc1b1] flex flex-col md:gap-3 gap-5 pb-30 lg:max-w-[1240px] mx-auto px-8'>
             <div>
+              <img src={hetalNeel?.images[0]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            </div>
+            <div>
               <img src={hetalNeel?.images[1]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
@@ -202,18 +205,15 @@ const HetalNeel: React.FC = () => {
             <div>
               <img src={hetalNeel?.images[43]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
-            {/* <div>
-            <img src={hetalNeel?.images[44]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
-          </div> */}
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
               <img src={hetalNeel?.images[44]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
               <img src={hetalNeel?.images[45]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
             </div>
-            {/* <div>
-            <img src={hetalNeel?.images[45]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
-          </div> */}
             <div>
               <img src={hetalNeel?.images[46]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            </div>
+            <div>
+              <img src={hetalNeel?.images[47]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
             <div>
               <img src={hetalNeel?.images[48]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
@@ -222,9 +222,6 @@ const HetalNeel: React.FC = () => {
               <img src={hetalNeel?.images[49]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
               <img src={hetalNeel?.images[50]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
             </div>
-            {/* <div>
-            <img src={hetalNeel?.images[50]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
-          </div> */}
             <div>
               <img src={hetalNeel?.images[51]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>

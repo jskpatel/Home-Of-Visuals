@@ -167,13 +167,16 @@ const MiralBhargav: React.FC = () => {
             <div>
               <img src={miralBhargav?.images[37]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
-            <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
+            <div>
+              <img src={miralBhargav?.images[38]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            </div>
+            {/* <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
               <img src={miralBhargav?.images[38]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
               <img src={miralBhargav?.images[39]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-            </div>
-            {/* <div>
-              <img src={miralBhargav?.images[39]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div> */}
+            <div>
+              <img src={miralBhargav?.images[39]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            </div>
           </div>
 
           <div className='bg-[#dfc1b1] flex justify-center item-center gap-5 pb-30 lg:max-w-[1240px] mx-auto px-8 md:text-[18px] text-[16px] lg:leading-17 leading-12 uppercase'>

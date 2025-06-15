@@ -157,6 +157,9 @@ const TejalVarun: React.FC = () => {
             <div>
               <img src={tejalVarun?.images[33]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
+            <div>
+              <img src={tejalVarun?.images[34]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            </div>
           </div>
 
           <div className='bg-[#dfc1b1] flex justify-center item-center gap-5 pb-30 lg:max-w-[1240px] mx-auto px-8 md:text-[18px] text-[16px] lg:leading-17 leading-12 uppercase'>
