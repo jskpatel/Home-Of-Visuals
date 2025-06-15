@@ -114,9 +114,9 @@ const HetalNeel: React.FC = () => {
             <div>
               <img src={hetalNeel?.images[15]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
             </div>
-            <div>
+            {/* <div>
               <img src={hetalNeel?.images[16]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
-            </div>
+            </div> */}
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
               <img src={hetalNeel?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
               <img src={hetalNeel?.images[17]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
