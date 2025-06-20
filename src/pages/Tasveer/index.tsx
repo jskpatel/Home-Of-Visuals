@@ -69,37 +69,37 @@ const Tasveer: React.FC = () => {
               <div className="flex flex-wrap gap-x-[5%] gap-y-24 w-fit" >
                 <div className='md:w-[30%] w-full flex flex-col gap-3'>
                   <div className='w-full bg-white'>
-                    <Link to="/tasveers/hetal-neel"><img src={tasveerImages[0]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' /></Link>
+                    <Link to="/tasveers/hetal-neel"><img src={tasveerImages[0]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' loading="lazy" /></Link>
                   </div>
                   <Link to="/tasveers/hetal-neel" className='text-[18px] leading-9 capitalize operetta mt-2'>{tasveerImages[0]?.name1} & {tasveerImages[0]?.name2}</Link>
                 </div>
                 <div className='md:w-[30%] w-full flex flex-col gap-3'>
                   <div className='w-full bg-white'>
-                    <Link to="/tasveers/akhil-athira"><img src={tasveerImages[1]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' /></Link>
+                    <Link to="/tasveers/akhil-athira"><img src={tasveerImages[1]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' loading="lazy" /></Link>
                   </div>
                   <Link to="/tasveers/akhil-athira" className='text-[18px] leading-9 capitalize operetta mt-2'>{tasveerImages[1]?.name1} & {tasveerImages[1]?.name2}</Link>
                 </div>
                 <div className='md:w-[30%] w-full flex flex-col gap-3'>
                   <div className='w-full bg-white'>
-                    <Link to="/tasveers/parth-zeel"><img src={tasveerImages[2]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' /></Link>
+                    <Link to="/tasveers/parth-zeel"><img src={tasveerImages[2]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' loading="lazy" /></Link>
                   </div>
                   <Link to="/tasveers/parth-zeel" className='text-[18px] leading-9 capitalize operetta mt-2'>{tasveerImages[2]?.name1} & {tasveerImages[2]?.name2}</Link>
                 </div>
                 <div className='md:w-[30%] w-full flex flex-col gap-3'>
                   <div className='w-full bg-white'>
-                    <Link to="/tasveers/miral-bhargav"><img src={tasveerImages[3]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' /></Link>
+                    <Link to="/tasveers/miral-bhargav"><img src={tasveerImages[3]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' loading="lazy" /></Link>
                   </div>
                   <Link to="/tasveers/miral-bhargav" className='text-[18px] leading-9 capitalize operetta mt-2'>{tasveerImages[3]?.name1} & {tasveerImages[3]?.name2}</Link>
                 </div>
                 <div className='md:w-[30%] w-full flex flex-col gap-3'>
                   <div className='w-full bg-white'>
-                    <Link to="/tasveers/tejal-varun"><img src={tasveerImages[4]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' /></Link>
+                    <Link to="/tasveers/tejal-varun"><img src={tasveerImages[4]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' loading="lazy" /></Link>
                   </div>
                   <Link to="/tasveers/tejal-varun" className='text-[18px] leading-9 capitalize operetta mt-2'>{tasveerImages[4]?.name1} & {tasveerImages[4]?.name2}</Link>
                 </div>
                 <div className='md:w-[30%] w-full flex flex-col gap-3'>
                   <div className='w-full bg-white'>
-                    <Link to="/tasveers/anjali-savan"><img src={tasveerImages[5]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' /></Link>
+                    <Link to="/tasveers/anjali-savan"><img src={tasveerImages[5]?.coverImage} alt="Tasveer" className='bg-[#D9D9D9] w-full md:h-[376px] h-[80vh] object-cover object-center' loading="lazy" /></Link>
                   </div>
                   <Link to="/tasveers/anjali-savan" className='text-[18px] leading-9 capitalize operetta mt-2'>{tasveerImages[5]?.name1} & {tasveerImages[5]?.name2}</Link>
                 </div>

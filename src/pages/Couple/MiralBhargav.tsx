@@ -72,110 +72,110 @@ const MiralBhargav: React.FC = () => {
 
           <div className='bg-[#dfc1b1] flex flex-col md:gap-3 gap-5 pb-30 lg:max-w-[1240px] mx-auto px-8'>
             <div>
-              <img src={miralBhargav?.images[0]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[0]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[1]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[1]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[2]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[2]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[3]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[4]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[3]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={miralBhargav?.images[4]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[5]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[5]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[6]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[7]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[6]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={miralBhargav?.images[7]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[8]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[8]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[9]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[10]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[9]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={miralBhargav?.images[10]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[11]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[12]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[11]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={miralBhargav?.images[12]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[13]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[13]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[14]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[14]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[15]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[15]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={miralBhargav?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[17]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[17]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[18]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[18]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[19]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[20]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[19]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={miralBhargav?.images[20]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[21]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[21]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[22]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[22]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[23]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[23]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[24]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[24]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[25]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[25]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[26]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[26]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[27]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[27]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[28]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[29]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[28]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={miralBhargav?.images[29]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[30]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[30]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[31]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[32]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[31]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={miralBhargav?.images[32]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[33]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[34]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[33]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={miralBhargav?.images[34]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[35]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[35]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[36]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[36]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[37]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[37]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={miralBhargav?.images[38]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[38]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             {/* <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={miralBhargav?.images[38]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={miralBhargav?.images[39]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[38]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={miralBhargav?.images[39]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div> */}
             <div>
-              <img src={miralBhargav?.images[39]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={miralBhargav?.images[39]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
           </div>
 

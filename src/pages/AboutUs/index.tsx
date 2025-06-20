@@ -80,7 +80,7 @@ const AboutUs: React.FC = () => {
                     <img
                       src={slide}
                       alt="Tasveer"
-                      className='bg-[#D9D9D9] h-[100vh] w-[100vw] object-cover object-center relative'
+                      className='bg-[#D9D9D9] lg:h-[100vh] h-[80vh] md:min-h-[400px] min-h-[300px] w-[100vw] object-cover object-center relative'
                       loading="lazy"
                     />
                   </div>

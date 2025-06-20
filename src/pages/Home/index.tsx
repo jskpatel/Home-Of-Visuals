@@ -1,13 +1,20 @@
 import React, { useState } from 'react'
-import { images } from '../../assets/images'
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
+
+import { images } from '../../assets/images'
 import { videos } from '../../assets/videos/video';
-import { Link } from 'react-router-dom';
+import DownArrowIcon from '../../components/DownArrow';
 
 const Home: React.FC = () => {
 
   const [showMobileNav, setShowMobileNav] = useState(false)
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+
+  const handleVideoLoad = () => {
+    setIsVideoLoaded(true);
+  };
 
   const slides = [
     { id: 1, image1: images.clientPraise1, image2: images.clientPraise2, title: 'Miral & Bhargav', description: "Hey! Thank you so much for the service team #HOUSEOFVISUALS You guys delivered way more then i expected. Kudos to your fantastic team work, dedication and your vision. ✨ ❤️" },
@@ -62,13 +69,30 @@ const Home: React.FC = () => {
 
       <main>
         <section>
-          <div className="w-full h-[100vh] bg-[#D9D9D9] text-center flex items-center justify-center flex-col text-white relative overflow-hidden">
-            <video src={videos.homeHeaderVideo} autoPlay muted loop className='h-[100vh] w-full object-cover object-center'></video>
+          <div className="w-full md:h-[100vh] h-[91vh] bg-[#D9D9D9] text-center flex items-center justify-center flex-col text-white relative overflow-hidden">
+
+            {!isVideoLoaded && (
+              <div className="absolute z-10 flex items-center justify-center w-full h-full bg-[#D9D9D9]">
+                <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1 absolute operetta'>Raw. Poetic. Eternal</h1>
+              </div>
+            )}
+
+            <video
+              src={videos.homeHeaderVideo}
+              autoPlay
+              muted
+              loop
+              preload="metadata"
+              className='h-[100vh] w-full object-cover object-center'
+              onCanPlayThrough={handleVideoLoad}
+            ></video>
             <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1 absolute operetta'>Raw. Poetic. Eternal</h1>
           </div>
+
+          <DownArrowIcon target="ourMission" />
         </section>
 
-        <section>
+        <section id='ourMission'>
           <div className="text-center max-w-[680px] mx-auto px-5 py-15 mb-10">
             <h2 className='text-[16px] leading-30 mb-6 uppercase tracking-[5px] inter-light'>Our mission</h2>
             <h3 className='lg:text-[45px] md:text-[35px] text-[30px] lg:leading-22 leading-14 font-light operetta'>When the <span className='block italic'>Guests Leave,</span> Your Story Stays</h3>
@@ -131,11 +155,6 @@ const Home: React.FC = () => {
                   <span className='!z-9 !relative !w-fit !h-[30px] !-mt-[25px] !text-black cursor-pointer flex items-center justify-center'>/</span>
                   <span className="swiper-button-next !z-9 !relative !w-fit !h-[30px] !-mt-[25px] !text-black cursor-pointer flex items-center justify-center hover:italic">Next</span>
                 </div>
-                {/* <div className="lg:text-[26px] md:text-[20px] text-[16px] lg:leading-17 leading-12 uppercase relative !flex items-center justify-center h-[50px] !z-99999">
-                <span className="swiper-button-prev text-black !relative !h-[30px] !w-[100px] !-mt-13 !z-99999">Previous</span>
-                <span className='!relative !h-[30px] !w-[100px] text-green !-mt-13 !z-99999'>/</span>
-                <span className="swiper-button-next text-black !relative !h-[30px] !w-[100px] !-mt-13 !z-99999">Next</span>
-              </div> */}
               </Swiper>
             </div>
           </div>

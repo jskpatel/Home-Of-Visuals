@@ -1,9 +1,10 @@
 import React, { useRef, useState } from 'react'
+import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import { FaWhatsapp } from 'react-icons/fa';
 import { images } from '../../assets/images'
 import SubmitButton from '../../components/SubmitButton'
-import { Link } from 'react-router-dom';
+import { whatsapp_message, whatsapp_number } from '../Tasveer/constant';
 
 const ContactUs: React.FC = () => {
 
@@ -103,10 +104,10 @@ const ContactUs: React.FC = () => {
               <div className='flex flex-wrap justify-between gap-10 w-full max-w-[800px]'>
 
                 <h2 className='mb-10 lg:text-[28px] text-[20px] leading-12 text-center w-full operetta-light'>YOUR WEDDING TIMELESS & ARTISTIC </h2>
-                <p className='mb-3 text-[18px] leading-12 lg:mb-10 mb-0 text-center font-light'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved</p>
+                <p className='mb-3 text-[18px] leading-12 lg:mb-10 mb-0 text-center font-light'>Kindly fill the form below with detailed information to assist us in generating an accurate quote. We aim to respond within 48 hours. If you do not hear from us or if you have a last-minute inquiry, please call us at the number provided below.</p>
 
                 <div className="flex lg:gap-24 gap-14 justify-center items-center mb-20 w-full">
-                  <a href='https://wa.me/7698608009?text=Welcome%20to%20Home%20Of%20Visuals' target='_blank' className="border-1 rounded-md uppercase px-10 py-5 flex items-center text-[16px] justify-center gap-4 cursor-pointer" title='Whatsapp'>
+                  <a href={`https://wa.me/${whatsapp_number}?text=${whatsapp_message}`} target='_blank' className="border-1 rounded-md uppercase px-10 py-5 flex items-center text-[16px] justify-center gap-4 cursor-pointer" title='Whatsapp'>
                     <FaWhatsapp className='h-[20px] w-[20px] text-black' /> Let's connect
                   </a>
                 </div>

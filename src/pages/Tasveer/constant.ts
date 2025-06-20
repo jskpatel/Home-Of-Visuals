@@ -388,3 +388,9 @@ export const blogDetails = [
     images: [blog11, blog12, blog13, blog14, blog15]
   }
 ]
+
+
+export const whatsapp_number = 7698608009;
+// export const whatsapp_message = "Welcome to Home Of Visuals"
+export const whatsapp_message = ""
+

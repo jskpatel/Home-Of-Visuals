@@ -72,216 +72,216 @@ const ParthZeel: React.FC = () => {
 
           <div className='bg-[#dfc1b1] flex flex-col md:gap-3 gap-5 pb-30 lg:max-w-[1240px] mx-auto px-8'>
             <div>
-              <img src={parthZeel?.images[0]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[0]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[1]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[1]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={parthZeel?.images[2]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={parthZeel?.images[3]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[2]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={parthZeel?.images[3]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[4]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[4]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[5]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[5]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[6]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[6]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={parthZeel?.images[7]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={parthZeel?.images[8]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[7]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={parthZeel?.images[8]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[9]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[9]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[10]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[10]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[11]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[11]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[12]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[12]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[13]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[13]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[14]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[14]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={parthZeel?.images[15]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={parthZeel?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[15]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={parthZeel?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[17]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[17]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[18]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[18]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={parthZeel?.images[19]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={parthZeel?.images[20]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[19]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={parthZeel?.images[20]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[21]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[21]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[22]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[22]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[23]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[23]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[24]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[24]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[25]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[25]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[26]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[26]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[27]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[27]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={parthZeel?.images[28]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={parthZeel?.images[29]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[28]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={parthZeel?.images[29]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[30]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[30]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[31]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[31]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[32]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[32]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[33]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[33]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[34]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[34]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[35]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[35]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[36]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[36]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[37]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[37]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[38]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[38]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
               <img src={parthZeel?.images[39]} alt="Tasveer" className='bg-[#ededed] w-full h-[100vh] object-cover object-center mx-auto' />
             </div>
             <div>
-              <img src={parthZeel?.images[40]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[40]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[41]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[41]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[42]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[42]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[43]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[43]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[44]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[44]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[45]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[45]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[46]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[46]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[47]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[47]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[48]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[48]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[49]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[49]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[50]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[50]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[51]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[51]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[52]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[52]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[53]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[53]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[54]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[54]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[55]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[55]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[56]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[56]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[57]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[57]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[58]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[58]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[59]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[59]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[60]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[60]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[61]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[61]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[62]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[62]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={parthZeel?.images[63]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={parthZeel?.images[64]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[63]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={parthZeel?.images[64]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[65]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[65]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[66]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[66]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[67]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[67]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[68]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[68]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={parthZeel?.images[69]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={parthZeel?.images[70]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[69]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={parthZeel?.images[70]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[71]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[71]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[72]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[72]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={parthZeel?.images[73]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[73]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={parthZeel?.images[74]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={parthZeel?.images[75]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={parthZeel?.images[74]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={parthZeel?.images[75]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
           </div>
 

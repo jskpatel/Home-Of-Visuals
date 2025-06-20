@@ -72,273 +72,260 @@ const HetalNeel: React.FC = () => {
 
           <div className='bg-[#dfc1b1] flex flex-col md:gap-3 gap-5 pb-30 lg:max-w-[1240px] mx-auto px-8'>
             <div>
-              <img src={hetalNeel?.images[0]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[0]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[1]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[1]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[2]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[3]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[2]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[3]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[4]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[4]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[5]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[5]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[6]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[6]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[7]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[8]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[7]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[8]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[9]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[9]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[10]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[10]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[11]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[11]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[12]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[12]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[13]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[13]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[14]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[14]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[15]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[15]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             {/* <div>
-              <img src={hetalNeel?.images[16]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[16]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div> */}
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[17]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[16]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[17]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[18]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[18]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[19]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[19]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[20]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[20]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[21]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[21]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[22]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[22]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             {/* <div>
-            <img src={hetalNeel?.images[23]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            <img src={hetalNeel?.images[23]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
           </div> */}
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[23]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[24]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[23]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[24]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[25]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[25]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[26]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[26]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             {/* <div>
-            <img src={hetalNeel?.images[27]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            <img src={hetalNeel?.images[27]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
           </div> */}
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[27]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[28]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[27]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[28]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[29]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[29]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[30]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[30]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[31]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[31]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[32]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[32]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[33]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[33]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             {/* <div>
-            <img src={hetalNeel?.images[34]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            <img src={hetalNeel?.images[34]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
           </div> */}
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[34]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[35]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[34]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[35]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[36]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[36]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[37]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[37]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[38]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[38]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[39]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[39]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[40]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[40]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[41]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[41]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[42]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[42]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[43]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[43]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[44]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[45]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[44]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[45]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[46]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[46]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[47]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[47]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[48]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[48]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[49]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[50]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[49]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[50]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[51]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[51]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[52]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[52]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[53]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[53]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[54]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[54]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[55]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[55]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[56]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[57]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[56]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[57]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             {/* <div>
-            <img src={hetalNeel?.images[58]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            <img src={hetalNeel?.images[58]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
           </div> */}
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[58]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[59]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[58]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[59]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[60]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[60]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[61]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[61]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[62]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[63]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-            </div>
-            {/* <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-            <img src={hetalNeel?.images[64]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-            <img src={hetalNeel?.images[65]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-          </div> */}
-            <div>
-              <img src={hetalNeel?.images[63]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[62]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[63]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[64]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[64]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[65]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[65]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[66]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[66]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[67]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[67]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[68]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[69]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[68]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[69]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             {/* <div>
-            <img src={hetalNeel?.images[69]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+            <img src={hetalNeel?.images[69]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
           </div> */}
             <div>
-              <img src={hetalNeel?.images[70]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[70]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[71]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[71]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[72]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[73]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-            </div>
-            {/* <div>
-            <img src={hetalNeel?.images[72]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
-          </div>
-          <div>
-            <img src={hetalNeel?.images[73]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
-          </div> */}
-            <div>
-              <img src={hetalNeel?.images[74]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[72]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[73]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[75]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[74]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[76]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[75]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[77]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[76]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[78]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[77]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[79]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[78]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[80]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[79]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[81]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[80]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[82]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[81]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[83]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[82]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[84]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[83]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+            </div>
+            <div>
+              <img src={hetalNeel?.images[84]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div className='flex flex-1 md:gap-3 gap-5 md:justify-between md:flex-row flex-col w-full'>
-              <img src={hetalNeel?.images[85]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
-              <img src={hetalNeel?.images[86]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[85]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
+              <img src={hetalNeel?.images[86]} alt="Tasveer" className='bg-[#ededed] md:w-[49.5%] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
             <div>
-              <img src={hetalNeel?.images[87]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' />
+              <img src={hetalNeel?.images[87]} alt="Tasveer" className='bg-[#ededed] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
           </div>
 

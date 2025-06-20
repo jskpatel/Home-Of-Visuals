@@ -11,12 +11,12 @@ const Footer: React.FC = () => {
           <div className="flex flex-col lg:gap-5 text-center max-w-[810px] px-5 mx-auto text-white">
             <p className='lg:text-[20px] md:text-[18px] text-[14px] lg:leading-12 leading-10'>HOME OF  VISUALS, All images and videos are copyrighted.</p>
             <p className='lg:text-[20px] text-[14px] lg:leading-12 leading-10 font-light flex lg:flex-row flex-col justify-center lg:gap-x-20 lg:mt-0 mt-5 lg:mb-0 mb-10'>
-              <span>Email : <a href="mailto:hello@homeofvisuals.co.in">hello@homeofvisuals.co.in</a></span>
-              <span>Phone : <a href="tel:+9172278384528">+91 72278384528</a></span>
+              <span>Email : <a href="mailto:thehomeofvisuals@gmail.com">thehomeofvisuals@gmail.com</a></span>
+              <span>Phone : <a href="tel:+917698608009">+91 76986 08009</a></span>
             </p>
 
             <div className="flex lg:gap-y-24 gap-14 justify-center items-center my-7">
-              <a href='https://wa.me/7698608009?text=Welcome%20to%20Home%20Of%20Visuals' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Whatsapp'><FaWhatsapp  /></a>
+              <a href='https://wa.me/7698608009' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Whatsapp'><FaWhatsapp  /></a>
               <a href='https://youtube.com/@homeofvisuals?si=hnkPKwTDL-SZ1fcq' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Youtube'><FiYoutube  /></a>
               <a href='https://www.instagram.com/thehomeofvisuals?utm_source=qr&igsh=MTZjam02eGo1ZjFxYQ==' target='_blank' className="rounded-full h-[30px] w-[30px] flex items-center justify-center text-[40px] cursor-pointer text-white" title='Instagram'><FaInstagram /></a>
             </div>

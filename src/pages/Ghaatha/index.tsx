@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { RiPlayLargeFill } from 'react-icons/ri'
-import { videos } from '../../assets/videos/video';
-import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
+import ReactPlayer from 'react-player';
+import { RiPlayLargeFill } from 'react-icons/ri'
+
+import { videos } from '../../assets/videos/video';
+import DownArrowIcon from '../../components/DownArrow';
 
 const Ghaatha: React.FC = () => {
-
   const [showMobileNav, setShowMobileNav] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [videoSrc, setVideoSrc] = useState<string | null>(null);
@@ -88,9 +89,11 @@ const Ghaatha: React.FC = () => {
             <video src={videos.gaathaHeaderVideo} autoPlay muted loop className='h-full w-full object-cover object-center absolute'></video>
             <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1 relative operetta'>Gaathas</h1>
           </div>
+
+          <DownArrowIcon target="timelessFilms" />
         </section>
 
-        <section>
+        <section id='timelessFilms'>
           <div className='bg-[#dfc1b1] min-h-[50vh] lg:px-25 px-5 lg:pt-30 pt-24 pb-24'>
 
             <div className="bg-[#fff] md:rounded-[50px] rounded-[20px] lg:px-24 px-5 lg:py-24 py-14 flex flex-wrap justify-center items-center lg:gap-x-40 gap-x-20 gap-y-24 w-fit max-w-[1200px] mx-auto" >
