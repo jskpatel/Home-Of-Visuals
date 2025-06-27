@@ -9,7 +9,7 @@ const AnjaliSavan: React.FC = () => {
 
   return (
     <>
-      <nav className={`absolute w-full z-4 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
+      <nav className={`absolute w-full z-24 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
         <div className="w-full px-2 sm:px-6 lg:px-10 lg:py-14 py-8">
           <div className="relative flex sm:items-center sm:justify-between">
 
@@ -61,7 +61,9 @@ const AnjaliSavan: React.FC = () => {
             </div>
 
             <h2 className="lg:text-[40px] text-[22px] lg:leading-16 leading-14 text-center uppercase mt-14 operetta">{anjaliSavan?.name1} & {anjaliSavan?.name2}</h2>
-            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
+            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>It felt like a quiet escape into their world. Walking hand in hand through open farm fields, leaning into each other near old architecture, and laughing by the waves… every place held a piece of their bond.</p>
+            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>What stood out wasn’t the backdrop, but how they were with each other—calm, real, and completely at ease. No forced smiles, no perfect poses. Just two people being themselves, soaking in every moment together.</p>
+            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>Their story is a reminder that love doesn’t need too much. Just the right person beside you, and even the simplest places start to feel magical.</p>
 
             {/* <div className="flex w-full max-w-[940px] mx-auto bg-white rounded-[30px] h-auto my-10">
             <audio ref={audioRef} controls autoPlay className='w-full h-[30px]'>

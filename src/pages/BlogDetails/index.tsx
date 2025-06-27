@@ -12,7 +12,7 @@ const BlogDetails: React.FC = () => {
 
   return (
     <>
-      <nav className={`absolute w-full z-4 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
+      <nav className={`absolute w-full z-24 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
         <div className="w-full px-2 sm:px-6 lg:px-10 lg:py-14 py-8">
           <div className="relative flex sm:items-center sm:justify-between">
 

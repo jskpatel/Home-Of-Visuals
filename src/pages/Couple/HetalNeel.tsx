@@ -9,7 +9,7 @@ const HetalNeel: React.FC = () => {
 
   return (
     <>
-      <nav className={`absolute w-full z-4 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
+      <nav className={`absolute w-full z-24 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
         <div className="w-full px-2 sm:px-6 lg:px-10 lg:py-14 py-8">
           <div className="relative flex sm:items-center sm:justify-between">
 
@@ -60,8 +60,11 @@ const HetalNeel: React.FC = () => {
               <img src={hetalNeel?.coverImage} alt="Tasveer" className='bg-[#ededed] lg:max-w-[1240px] w-full h-auto object-cover object-center mx-auto' loading="lazy" />
             </div>
 
-            <h2 className="lg:text-[40px] text-[22px] lg:leading-16 leading-14 text-center uppercase mt-14 operetta">{hetalNeel?.name1} & {hetalNeel?.name2}</h2>
-            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
+            {/* <h2 className="lg:text-[40px] text-[22px] lg:leading-16 leading-14 text-center uppercase mt-14 operetta">{hetalNeel?.name1} & {hetalNeel?.name2}</h2> */}
+            <h2 className="lg:text-[40px] text-[22px] lg:leading-16 leading-14 text-center uppercase mt-14 operetta">A Beautiful Beginning</h2>
+            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>Some weddings don’t just stay in albums—they stay in hearts. Neel and Hetal’s big day was one of those. A celebration that felt like a dream, wrapped in tradition, warmth, and moments that made you pause and smile.</p>
+            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>From the quiet, stolen glances to the loud, joyful cheers—every part of their wedding felt alive. It wasn’t just about the stunning outfits or the grand décor, but about the laughter shared between friends, the tight hugs from family, and the small, meaningful moments in between.</p>
+            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>We had the honour of capturing not just their wedding, but the beautiful bond they share. This gallery isn’t just about photos—it’s about memories that will last forever. Here's a look into a day where two souls became one, surrounded by everything and everyone they love.</p>
 
             {/* <div className="flex w-full max-w-[940px] mx-auto bg-white rounded-[30px] h-auto my-10">
             <audio ref={audioRef} controls autoPlay className='w-full h-[30px]'>

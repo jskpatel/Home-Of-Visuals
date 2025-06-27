@@ -9,7 +9,7 @@ const TejalVarun: React.FC = () => {
 
   return (
     <>
-      <nav className={`absolute w-full z-4 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
+      <nav className={`absolute w-full z-24 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
         <div className="w-full px-2 sm:px-6 lg:px-10 lg:py-14 py-8">
           <div className="relative flex sm:items-center sm:justify-between">
 
@@ -61,7 +61,9 @@ const TejalVarun: React.FC = () => {
             </div>
 
             <h2 className="lg:text-[40px] text-[22px] lg:leading-16 leading-14 text-center uppercase mt-14 operetta">{tejalVarun?.name1} & {tejalVarun?.name2}</h2>
-            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>Others who use this device won't see your activity, so you can browse more privately. This won't change how data is collected by websites that you visit and the services that they use, including Google. Downloads, bookmarks and reading list items will be saved.</p>
+            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>Some people don’t need big moments to show their love—they just need to be there, fully present. That’s what we saw with Tejal and Varun. They didn’t chase perfection. They simply chose to live every second of their wedding with open hearts and calm smiles.</p>
+            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>Their day was filled with small, beautiful moments. A soft glance during the vows, a quiet laugh in between rituals, and the kind of togetherness that didn’t need any words. Everything felt easy, natural, and full of meaning.</p>
+            <p className='text-[18px] leading-11 font-light text-center lg:w-[940px] max-w-[600px] w-full mx-auto'>They reminded us something truly special—love doesn’t come with the perfect time or setting. It just happens. And when it’s real, it stays forever.</p>
 
             {/* <div className="flex w-full max-w-[940px] mx-auto bg-white rounded-[30px] h-auto my-10">
               <audio ref={audioRef} controls autoPlay className='w-full h-[30px]'>

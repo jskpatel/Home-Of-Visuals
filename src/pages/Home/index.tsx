@@ -23,7 +23,7 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <nav className={`absolute w-full z-4 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
+      <nav className={`absolute w-full z-24 ${showMobileNav ? 'md:bg-transparent bg-black md:h-fit h-[100vh] top-0 bottom-0' : 'bg-transparent'}`}>
         <div className="w-full px-2 sm:px-6 lg:px-10 lg:py-14 py-8">
           <div className="relative flex sm:items-center sm:justify-between">
 
@@ -86,6 +86,18 @@ const Home: React.FC = () => {
               className='h-[100vh] w-full object-cover object-center'
               onCanPlayThrough={handleVideoLoad}
             ></video>
+
+            {/* <div className="relative w-full h-[100vh] overflow-hidden">
+              <iframe
+                src="https://www.youtube.com/embed/5hwJA4ji8qk?autoplay=1&mute=1&loop=1&playlist=5hwJA4ji8qk&controls=0&modestbranding=1&showinfo=0&rel=0"
+                className="absolute top-0 left-0 w-[100%] h-[100%] transform pointer-events-none"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+                title="YouTube video player"
+              ></iframe>
+            </div> */}
+
             <h1 className='uppercase font-normal xl:text-[48px] lg:text-[40px] text-[30px] leading-26 z-1 absolute operetta'>Raw. Poetic. Eternal</h1>
           </div>
 
